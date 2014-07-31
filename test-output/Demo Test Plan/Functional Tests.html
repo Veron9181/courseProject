@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Functional Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 31 13:29:19 FET 2014</td>
+<td>Started on:</td><td>Thu Jul 31 19:42:27 FET 2014</td>
 </tr>
-<tr><td>Total time:</td><td>16 seconds (16385 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21162 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -86,52 +86,24 @@ function toggleAllBoxes() {
 --------==[ Preconditions ]==--------<br><br/>
 --------==[ Step 1 ]==--------<br><br/>
 --------==[ Step 2 ]==--------<br><br/>
-Form 'My google form' appears in 1939msec<br><br/>
+Form 'My form' appears in 1434msec<br><br/>
 --------==[ Step 3 ]==--------<br><br/>
-Text Field 'search bar' :: Typing 'A1QA'<br><br/>
-Button 'search button' :: Clicking<br><br/>
+Button 'enter button' :: Clicking<br><br/>
+Text Field 'login' :: Typing 'courseProject'<br><br/>
+Text Field 'password' :: Typing 'q1w2e3r4t5y6'<br><br/>
+Button 'enter button' :: Clicking<br><br/>
+Button 'enter button' :: Clicking<br><br/>
 --------==[ Step 4 ]==--------<br><br/>
 --------==[ Step 5 ]==--------<br><br/>
-<div class="skipped"></div><br><br/>
-<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br><br/>
-<div class="skipped"></div><br><br/>
+<br><br/>
+***************************************************<br><br/>
+***** Test case: 'demo.test.DemoTest' Passed! *****<br><br/>
+***************************************************<br><br/>
+<br><br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError
-	at demo.test.forms.TutSearchForm.searchAssert(TutSearchForm.java:33)
-	at demo.test.DemoTest.runTest(DemoTest.java:21)
-	at webdriver.BaseTest.xTest(BaseTest.java:26)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1262854901", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1262854901'><pre>java.lang.AssertionError
-	at demo.test.forms.TutSearchForm.searchAssert(TutSearchForm.java:33)
-	at demo.test.DemoTest.runTest(DemoTest.java:21)
-	at webdriver.BaseTest.xTest(BaseTest.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div></td>
-<td>5</td>
+<td></td>
+<td>4</td>
 <td>demo.test.DemoTest@3f6b0be5</td></tr>
 </table><p>
 </body>

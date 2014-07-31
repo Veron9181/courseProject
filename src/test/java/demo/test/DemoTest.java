@@ -11,16 +11,15 @@ public class DemoTest extends BaseTest {
 		logger.step(1);
 		browser.navigate("http://www.tut.by/");
 		logger.step(2);
-		TutSearchForm tsf = new TutSearchForm();
+		Autorisation tsf = new Autorisation();
 		tsf.assertLogo();
 		logger.step(3);
-		tsf.searchFor("A1QA");
+		tsf.login("courseProject", "q1w2e3r4t5y6");
 		logger.step(4);
 		browser.waitForPageToLoad();
 		logger.step(5);
-		tsf.searchAssert();
-
-	}
+		tsf.autorizationAssert();
+			}
 
 
 
