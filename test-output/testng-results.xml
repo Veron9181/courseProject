@@ -26,31 +26,76 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'My form' appears in 1434msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+      <![CDATA[Form 'My form' appears in 12218msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'enter button' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[Text Field 'login' :: Typing 'courseProject'<br>]]>
+      <![CDATA[Text Field 'user name' :: Typing 'courseProject'<br>]]>
     </line>
     <line>
       <![CDATA[Text Field 'password' :: Typing 'q1w2e3r4t5y6'<br>]]>
     </line>
     <line>
-      <![CDATA[Button 'enter button' :: Clicking<br>]]>
+      <![CDATA[Button 'enter button 2' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[Button 'enter button' :: Clicking<br>]]>
+      <![CDATA[Button 'close button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+      <![CDATA[Button 'Quit button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'My form' appears in 1966msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'afisha button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'search afisha' :: Typing 'Three days grace'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'afisha search button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'My form' appears in 54msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'go to weather' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'click button to change' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'choose the city' :: Clicking<br>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -74,23 +119,23 @@
       <![CDATA[killing processes<br>]]>
     </line>
   </reporter-output>
-  <suite name="Demo Test Plan" duration-ms="21162" started-at="2014-07-31T16:42:27Z" finished-at="2014-07-31T16:42:48Z">
+  <suite name="Demo Test Plan" duration-ms="54501" started-at="2014-08-02T10:31:38Z" finished-at="2014-08-02T10:32:32Z">
     <groups>
     </groups>
-    <test name="Functional Tests" duration-ms="21162" started-at="2014-07-31T16:42:27Z" finished-at="2014-07-31T16:42:48Z">
+    <test name="Functional Tests" duration-ms="54501" started-at="2014-08-02T10:31:38Z" finished-at="2014-08-02T10:32:32Z">
       <class name="demo.test.DemoTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.DemoTest@3f6b0be5]" name="before" is-config="true" duration-ms="50" started-at="2014-07-31T19:42:27Z" finished-at="2014-07-31T19:42:27Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.DemoTest@3f6b0be5]" name="before" is-config="true" duration-ms="47" started-at="2014-08-02T13:31:38Z" finished-at="2014-08-02T13:31:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3de8f619]]>
+                <![CDATA[org.testng.TestRunner@7dfd3c81]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.DemoTest@3f6b0be5]" name="xTest" duration-ms="4954" started-at="2014-07-31T19:42:27Z" finished-at="2014-07-31T19:42:32Z">
+        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.DemoTest@3f6b0be5]" name="xTest" duration-ms="49308" started-at="2014-08-02T13:31:38Z" finished-at="2014-08-02T13:32:27Z">
           <reporter-output>
             <line>
               <![CDATA[----------------------------------------------------------------------------<br>]]>
@@ -111,31 +156,76 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'My form' appears in 1434msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+              <![CDATA[Form 'My form' appears in 12218msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'enter button' :: Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[Text Field 'login' :: Typing 'courseProject'<br>]]>
+              <![CDATA[Text Field 'user name' :: Typing 'courseProject'<br>]]>
             </line>
             <line>
               <![CDATA[Text Field 'password' :: Typing 'q1w2e3r4t5y6'<br>]]>
             </line>
             <line>
-              <![CDATA[Button 'enter button' :: Clicking<br>]]>
+              <![CDATA[Button 'enter button 2' :: Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[Button 'enter button' :: Clicking<br>]]>
+              <![CDATA[Button 'close button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+              <![CDATA[Button 'Quit button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'My form' appears in 1966msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'afisha button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'search afisha' :: Typing 'Three days grace'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'afisha search button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'My form' appears in 54msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'go to weather' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'click button to change' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'choose the city' :: Clicking<br>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -154,7 +244,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.DemoTest@3f6b0be5]" name="after" is-config="true" duration-ms="16144" started-at="2014-07-31T19:42:32Z" finished-at="2014-07-31T19:42:48Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.DemoTest@3f6b0be5]" name="after" is-config="true" duration-ms="5136" started-at="2014-08-02T13:32:27Z" finished-at="2014-08-02T13:32:32Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
