@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jul 30 22:02:47 FET 2014</td>
+<td>Started on:</td><td>Wed Aug 06 15:27:21 FET 2014</td>
 </tr>
-<tr><td>Total time:</td><td>24 seconds (24818 ms)</td>
+<tr><td>Total time:</td><td>20 seconds (20937 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -84,22 +84,24 @@ function toggleAllBoxes() {
 =====================  Test case: 'demo.test.DemoTest' =====================<br><br/>
 ----------------------------------------------------------------------------<br><br/>
 --------==[ Preconditions ]==--------<br><br/>
+Form 'My form' appears in 1452msec<br><br/>
 --------==[ Step 1 ]==--------<br><br/>
+Form 'My form' appears in 80msec<br><br/>
+Button 'Go to jobs' :: Clicking<br><br/>
 --------==[ Step 2 ]==--------<br><br/>
-Form 'My google form' appears in 16282msec<br><br/>
---------==[ Step 3 ]==--------<br><br/>
-Text Field 'search bar' :: Typing 'A1QA'<br><br/>
-Button 'search button' :: Clicking<br><br/>
---------==[ Step 4 ]==--------<br><br/>
---------==[ Step 5 ]==--------<br><br/>
+Text Field 'find job  text box' :: Typing 'Junior developer'<br><br/>
+Button 'Programing check box' :: Clicking<br><br/>
+Text Field 'salary text box' :: Typing '1000000'<br><br/>
+Button 'Find job button' :: Clicking<br><br/>
 <div class="skipped"></div><br><br/>
 <div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br><br/>
 <div class="skipped"></div><br><br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError
-	at demo.test.forms.TutSearchForm.searchAssert(TutSearchForm.java:33)
-	at demo.test.DemoTest.runTest(DemoTest.java:21)
+	at demo.test.forms.JobFindAndSortForm.FindJob(JobFindAndSortForm.java:35)
+	at demo.test.classes.JobFindAndSortClass.JobFindAndSort(JobFindAndSortClass.java:12)
+	at demo.test.DemoTest.runTest(DemoTest.java:38)
 	at webdriver.BaseTest.xTest(BaseTest.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -127,8 +129,9 @@ Button 'search button' :: Clicking<br><br/>
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 </pre></div><a href='#' onClick='toggleBox("stack-trace1101048445", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace1101048445'><pre>java.lang.AssertionError
-	at demo.test.forms.TutSearchForm.searchAssert(TutSearchForm.java:33)
-	at demo.test.DemoTest.runTest(DemoTest.java:21)
+	at demo.test.forms.JobFindAndSortForm.FindJob(JobFindAndSortForm.java:35)
+	at demo.test.classes.JobFindAndSortClass.JobFindAndSort(JobFindAndSortClass.java:12)
+	at demo.test.DemoTest.runTest(DemoTest.java:38)
 	at webdriver.BaseTest.xTest(BaseTest.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -155,7 +158,7 @@ Button 'search button' :: Clicking<br><br/>
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 </pre></div></td>
-<td>24</td>
+<td>19</td>
 <td>demo.test.DemoTest@48f278eb</td></tr>
 </table><p>
 </body>

@@ -1,51 +1,61 @@
 package demo.test;
 
 import webdriver.BaseTest;
-import demo.test.forms.*;
+import demo.test.classes.*;
 
 public class DemoTest extends BaseTest {
-	
-	
+		
 	public void runTest() {
-
-	//test.Login
+						
+		//test 1 Login
+		//browser.navigate("http://www.tut.by/");
+		//LoginClass lc = new LoginClass();
+		//lc.Login();
 		
-		logger.step(1);
+		//test 2 AfishaFindEvent
+		//browser.navigate("http://www.tut.by/");
+		//AfishaFindEventClass afc = new AfishaFindEventClass();
+		//afc.AfishaFindEvent();
+		
+		//test 3 WeatherChangeCity
+		//browser.navigate("http://www.tut.by/");
+		//WeatherChangeCityClass wcc = new WeatherChangeCityClass();
+		//wcc.WeatherChangeCity();
+		
+		//test 4 CatalogAddComment
+		//browser.navigate("http://www.tut.by/");
+		//CatalogAddCommentClass cac = new CatalogAddCommentClass();
+		//cac.CatalogAddComment();
+		
+		//test 5 MusicFindGroup
+		//browser.navigate("http://www.tut.by/");
+		//MusicFindGroupClass mfg = new MusicFindGroupClass();
+		//mfg.MusicFindGroup();
+		
+		//test 6 JobFindAndSort
 		browser.navigate("http://www.tut.by/");
-		logger.step(2);
-		LoginForm lgf = new LoginForm();
-		lgf.Login("courseProject", "q1w2e3r4t5y6");
-		logger.step(3);
-		lgf.LoginAssert();
-		logger.step(4);
-		lgf.LoginQuit();
-			
-	// test.AfishaFindEvent
+		JobFindAndSortClass jfs = new JobFindAndSortClass();
+		jfs.JobFindAndSort();
 		
-		logger.step(1);
+		//test 7 JobAdvancedSearch
+		//browser.navigate("http://www.tut.by/");
+		//JobAdvancedSearchClass jas = new JobAdvancedSearchClass();
+		//jas.JobAdvancedSearch();
+		
+		//test 8 BlogFindAndGoTo
 		browser.navigate("http://www.tut.by/");
-		logger.step(2);
-		AfishaFindEventForm afe = new AfishaFindEventForm();
-		afe.GoToAfisha();
-		logger.step(3);
-		afe.AfishaSearch("Three days grace");
-		logger.step(4);
-		afe.AssertFindGroup();
-		
-	// test.WeatherChangeCity
-		
-		logger.step(1);
+		BlogFindAndGoToClass bfg = new BlogFindAndGoToClass();
+		bfg.BlogFindAndGoTo();
+				
+		//test 9 FindRoadRules
 		browser.navigate("http://www.tut.by/");
-		logger.step(2);
-		WeatherChangeCityForm wcc = new WeatherChangeCityForm();
-		wcc.WeatherPage();
-		logger.step(3);
-		wcc.ChangeCity();
-		
-		
-	
+		FindRoadRulesClass frr = new FindRoadRulesClass();
+		frr.FindRoadRules();
+				
+		//test 10 LanguageChange
+		browser.navigate("http://www.tut.by/");
+		LanguageChangeClass lcc = new LanguageChangeClass();
+		lcc.LanguageChange();
+						
 	}
-
-
-
 }

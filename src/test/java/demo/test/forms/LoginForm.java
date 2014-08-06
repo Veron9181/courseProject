@@ -2,9 +2,7 @@ package demo.test.forms;
 
 import org.openqa.selenium.By;
 import webdriver.BaseForm;
-import webdriver.elements.Button;
-import webdriver.elements.Label;
-import webdriver.elements.TextBox;
+import webdriver.elements.*;
 
 public class LoginForm extends BaseForm{
 	
@@ -25,10 +23,7 @@ public void Login(String username, String password) {
 	txpassword.type(password);
 	buttonEnter2.click();
 	buttonClose.click();
-}
-
-public void LoginAssert(){
-	assert(lbLoginAssert.isPresent());
+	doAssert(lbLoginAssert.isPresent(), "Login success", "Login fail");
 	}
 
 public void LoginQuit () {
@@ -36,7 +31,6 @@ public void LoginQuit () {
 	}
 
 public LoginForm() {
-	super(formlocator, "My form");
-}
-
+	super(formlocator, "Loginform");
+	}
 }

@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -36,8 +36,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Demo_Test_Plan">
-              <span class="suite-name border-passed">Demo Test Plan</span>
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -47,37 +47,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Demo_Test_Plan">
-                    <span>C:\Users\lENOVO\Documents\GitHub\courseProject\src\test\resources\TestSuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-1378222983\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Demo_Test_Plan">
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Demo_Test_Plan">
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Demo_Test_Plan">
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Demo_Test_Plan">
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Demo_Test_Plan">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Demo_Test_Plan">
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -90,21 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Demo_Test_Plan" class="hide-methods passed suite-Demo_Test_Plan"> (hide)</a> <!-- hide-methods passed suite-Demo_Test_Plan -->
-                      <a href="#" panel-name="suite-Demo_Test_Plan" class="show-methods passed suite-Demo_Test_Plan"> (show)</a> <!-- show-methods passed suite-Demo_Test_Plan -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Demo_Test_Plan">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="demo.test.DemoTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demo.test.DemoTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Demo_Test_Plan -->
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -115,10 +115,10 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Demo_Test_Plan" class="panel Demo_Test_Plan">
-          <div class="suite-Demo_Test_Plan-class-passed">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">demo.test.DemoTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -127,57 +127,88 @@
                   <a name="xTest">
                   </a> <!-- xTest -->
                   <span class="method-name">xTest</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at demo.test.forms.JobFindAndSortForm.FindJob(JobFindAndSortForm.java:35)
+	at demo.test.classes.JobFindAndSortClass.JobFindAndSort(JobFindAndSortClass.java:12)
+	at demo.test.DemoTest.runTest(DemoTest.java:38)
+	at webdriver.BaseTest.xTest(BaseTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Demo_Test_Plan-class-passed -->
-        </div> <!-- panel Demo_Test_Plan -->
-        <div panel-name="test-xml-Demo_Test_Plan" class="panel">
+          </div> <!-- suite-Default_suite-class-failed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\lENOVO\Documents\GitHub\courseProject\src\test\resources\TestSuite.xml</span>
+            <span class="header-content">C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-1378222983\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Demo Test Plan&quot;&gt;
-  &lt;test name=&quot;Functional Tests&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;demo.test.DemoTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Functional Tests --&gt;
-&lt;/suite&gt; &lt;!-- Demo Test Plan --&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Demo_Test_Plan" class="panel">
+        <div panel-name="testlist-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Demo Test Plan</span>
+            <span class="header-content">Tests for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Functional Tests (1 class)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Demo_Test_Plan" class="panel">
+        <div panel-name="group-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Demo Test Plan</span>
+            <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Demo_Test_Plan" class="panel">
+        <div panel-name="times-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Demo Test Plan</span>
+            <span class="header-content">Times for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Demo_Test_Plan');
-function tableData_Demo_Test_Plan() {
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -187,20 +218,20 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'xTest')
 data.setCell(0, 2, 'demo.test.DemoTest')
-data.setCell(0, 3, 49308);
-window.suiteTableData['Demo_Test_Plan']= { tableData: data, tableDiv: 'times-div-Demo_Test_Plan'}
+data.setCell(0, 3, 19381);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
-              <div id="times-div-Demo_Test_Plan">
-              </div> <!-- times-div-Demo_Test_Plan -->
+              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Demo_Test_Plan" class="panel">
+        <div panel-name="reporter-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Demo Test Plan</span>
+            <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
@@ -210,49 +241,30 @@ return data;
                 <span class="reporter-method-output">=====================  Test case: 'demo.test.DemoTest' =====================<br></span>
                 <span class="reporter-method-output">----------------------------------------------------------------------------<br></span>
                 <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 1452msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 80msec<br></span>
+                <span class="reporter-method-output">Button 'Go to jobs' :: Clicking<br></span>
                 <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'My form' appears in 12218msec<br></span>
-                <span class="reporter-method-output">Button 'enter button' :: Clicking<br></span>
-                <span class="reporter-method-output">Text Field 'user name' :: Typing 'courseProject'<br></span>
-                <span class="reporter-method-output">Text Field 'password' :: Typing 'q1w2e3r4t5y6'<br></span>
-                <span class="reporter-method-output">Button 'enter button 2' :: Clicking<br></span>
-                <span class="reporter-method-output">Button 'close button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Quit button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'My form' appears in 1966msec<br></span>
-                <span class="reporter-method-output">Button 'afisha button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
-                <span class="reporter-method-output">Text Field 'search afisha' :: Typing 'Three days grace'<br></span>
-                <span class="reporter-method-output">Button 'afisha search button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'My form' appears in 54msec<br></span>
-                <span class="reporter-method-output">Button 'go to weather' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'click button to change' :: Clicking<br></span>
-                <span class="reporter-method-output">Button 'choose the city' :: Clicking<br></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output">***************************************************<br></span>
-                <span class="reporter-method-output">***** Test case: 'demo.test.DemoTest' Passed! *****<br></span>
-                <span class="reporter-method-output">***************************************************<br></span>
-                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">Text Field 'find job  text box' :: Typing 'Junior developer'<br></span>
+                <span class="reporter-method-output">Button 'Programing check box' :: Clicking<br></span>
+                <span class="reporter-method-output">Text Field 'salary text box' :: Typing '1000000'<br></span>
+                <span class="reporter-method-output">Button 'Find job button' :: Clicking<br></span>
+                <span class="reporter-method-output"><div class="skipped"></div><br></span>
+                <span class="reporter-method-output"><div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br></span>
+                <span class="reporter-method-output"><div class="skipped"></div><br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Demo_Test_Plan" class="panel">
+        <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Demo_Test_Plan" class="panel">
+        <div panel-name="chronological-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -260,16 +272,18 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">demo.test.DemoTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">before(org.testng.TestRunner@7dfd3c81)</span>
+                <span class="method-name">before(org.testng.TestRunner@dc7df28)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">xTest</span>
-                <span class="method-start">49 ms</span>
+                <span class="method-start">34 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">after</span>
-                <span class="method-start">49358 ms</span>
+                <span class="method-start">19422 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
