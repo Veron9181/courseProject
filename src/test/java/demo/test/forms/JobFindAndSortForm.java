@@ -29,7 +29,7 @@ public class JobFindAndSortForm extends BaseForm{
 		chPrograming.click();
 		txSalary.type(number);
 		btFindJob.click();
-		doAssert(lbSearchResult.isPresent(), "search success", "search fail");
+		doAssert(lbSearchResult.isPresent(), "Search success", "Search fail");
 	}
 	
 		public JobFindAndSortForm() {

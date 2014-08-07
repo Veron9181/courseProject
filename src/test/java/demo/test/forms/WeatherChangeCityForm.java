@@ -16,13 +16,13 @@ public class WeatherChangeCityForm extends BaseForm{
 		
 	public void WeatherPage() {
 		ltWeather.click();
-		assert(lbWatherAssert.isPresent());
+		doAssert(lbWatherAssert.isPresent(), "Weather page is downloaded", "Weather page isn't downloaded");
 			}
 	
 	public void ChangeCity() {
 		ltSelectCity.click();
 		ltChangeWeather.click();
-		assert(lbChageAssert.isPresent());
+		doAssert(lbChageAssert.isPresent(), "City changed successfuly", "City isn't changed");
 			}
 		
 	public WeatherChangeCityForm() {

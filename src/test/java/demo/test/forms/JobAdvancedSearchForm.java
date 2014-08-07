@@ -25,7 +25,7 @@ public class JobAdvancedSearchForm extends BaseForm{
 	
 	public void GoToJobs() {
 		ltClickJobs.click();
-		doAssert(lbJobsPage.isPresent(), "jobs page is present]", "jobs page is absent");
+		doAssert(lbJobsPage.isPresent(), "Jobs page is present]", "Jobs page is absent");
 	}
 	
 	public void AdvancedSearch() {
