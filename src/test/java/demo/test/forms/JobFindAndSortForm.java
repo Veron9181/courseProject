@@ -17,22 +17,20 @@ public class JobFindAndSortForm extends BaseForm{
 	
 	private TextBox txSalary = new TextBox(By.name("salary"), "salary text box");
 	private Button btFindJob = new Button(By.xpath("//input[@value='Найти']"),"Find job button");
-	private Label lbSearchResult = new Label(By.xpath("//a[@href='http://jobs.tut.by/vacancy/11106092?query=junior%20developer']"),"label search result");	
-	
-	//дописать для селекта
-	
+	private Label lbSearchResult = new Label(By.partialLinkText("Изменить запрос"));	
+			
 	public void GoToJobs() {
 		btClickJobs.click();
-		assert(lbJobsPage.isPresent());
+		doAssert(lbJobsPage.isPresent(), "Jobs Page is downloaded", "Jobs Page isn't downloaded");
 	}
 	
-	public void FindJob() {
-		txFindJob.type("Junior developer");
-		sbProfSphere.select("Информационные технологии, интернет, телеком");
+	public void FindJob(String job, String SelectText, String number) {
+		txFindJob.type(job);
+		sbProfSphere.select(SelectText);
 		chPrograming.click();
-		txSalary.type("1000000");
+		txSalary.type(number);
 		btFindJob.click();
-		assert(lbSearchResult.isPresent());
+		doAssert(lbSearchResult.isPresent(), "search success", "search fail");
 	}
 	
 		public JobFindAndSortForm() {

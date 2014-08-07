@@ -9,6 +9,6 @@ public class MusicFindGroupClass extends MusicFindGroupForm{
 		MusicFindGroupForm mfg = new MusicFindGroupForm();
 		mfg.GoToMusic();
 		logger.step(2);
-		mfg.FindGroup();
+		mfg.FindGroup("ДДТ");
 		}
 }

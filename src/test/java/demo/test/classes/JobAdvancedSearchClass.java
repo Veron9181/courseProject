@@ -11,6 +11,6 @@ public class JobAdvancedSearchClass extends JobAdvancedSearchForm{
 	logger.step(2);
 	asf.AdvancedSearch();
 	logger.step(3);
-	asf.CompleteAndFindForm();
+	asf.CompleteAndFindForm("Junior developer");
 	}
 }

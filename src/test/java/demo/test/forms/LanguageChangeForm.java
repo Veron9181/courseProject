@@ -19,8 +19,8 @@ public class LanguageChangeForm extends BaseForm{
 		assert(lbLanguageChanged.isPresent());	
 	}
 	
-	public void SearchText() {
-		txSearchField.type("інфармацыйныя тэхналогіі");
+	public void SearchText(String SearchText) {
+		txSearchField.type(SearchText);
 		btFind.click();
 		assert(lbSearchComplete.isPresent());
 	}

@@ -21,9 +21,9 @@ public class MusicFindGroupForm extends BaseForm{
 		doAssert(lbMusicPage.isPresent(),"Page downloaded", "Fail downloading the page");
 	}
 	
-	public void FindGroup() {
+	public void FindGroup(String SearchText) {
 		ltMusicSearch.click();
-		txGroupName.type("ДДТ");
+		txGroupName.type(SearchText);
 		btFind.click();
 		ltcickGroup.click();
 		doAssert(lbCatalog.isPresent(), "Group page is downloaded", "Group page isn't downloaded");

@@ -9,7 +9,7 @@ public class LanguageChangeClass extends LanguageChangeForm{
 		LanguageChangeForm lcf = new LanguageChangeForm();
 		lcf.Changelanguage();
 		logger.step(2);
-		lcf.SearchText();
+		lcf.SearchText("інфармацыйныя тэхналогіі");
 	}
 	
 }

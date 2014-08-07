@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-1378222983\testng-customsuite.xml</span>
+                    <span>C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse--243224889\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,21 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demo.test.DemoTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,9 +116,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">demo.test.DemoTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -127,45 +127,14 @@
                   <a name="xTest">
                   </a> <!-- xTest -->
                   <span class="method-name">xTest</span>
-                  <div class="stack-trace">java.lang.AssertionError
-	at demo.test.forms.JobFindAndSortForm.FindJob(JobFindAndSortForm.java:35)
-	at demo.test.classes.JobFindAndSortClass.JobFindAndSort(JobFindAndSortClass.java:12)
-	at demo.test.DemoTest.runTest(DemoTest.java:38)
-	at webdriver.BaseTest.xTest(BaseTest.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-1378222983\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse--243224889\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -218,12 +187,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'xTest')
 data.setCell(0, 2, 'demo.test.DemoTest')
-data.setCell(0, 3, 19381);
+data.setCell(0, 3, 82975);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -241,18 +210,110 @@ return data;
                 <span class="reporter-method-output">=====================  Test case: 'demo.test.DemoTest' =====================<br></span>
                 <span class="reporter-method-output">----------------------------------------------------------------------------<br></span>
                 <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
-                <span class="reporter-method-output">Form 'My form' appears in 1452msec<br></span>
+                <span class="reporter-method-output">Form 'Loginform' appears in 1339msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'My form' appears in 80msec<br></span>
+                <span class="reporter-method-output">Form 'Loginform' appears in 87msec<br></span>
+                <span class="reporter-method-output">Button 'enter button' :: Clicking<br></span>
+                <span class="reporter-method-output">Text Field 'user name' :: Typing 'courseProject'<br></span>
+                <span class="reporter-method-output">Text Field 'password' :: Typing 'q1w2e3r4t5y6'<br></span>
+                <span class="reporter-method-output">Button 'enter button 2' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'close button' :: Clicking<br></span>
+                <span class="reporter-method-output">Login success<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Quit button' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 1322msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 81msec<br></span>
+                <span class="reporter-method-output">Button 'afisha link' :: Clicking<br></span>
+                <span class="reporter-method-output">Afisha page is downloaded<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'search box afisha' :: Typing 'Three days grace'<br></span>
+                <span class="reporter-method-output">Button 'afisha search button' :: Clicking<br></span>
+                <span class="reporter-method-output">Search success<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 69msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 69msec<br></span>
+                <span class="reporter-method-output">Button 'eather page link' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'click button to change' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'choose the city' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 96msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 78msec<br></span>
+                <span class="reporter-method-output">Button 'muusic page link' :: Clicking<br></span>
+                <span class="reporter-method-output">Page downloaded<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Music search link' :: Clicking<br></span>
+                <span class="reporter-method-output">Text Field 'find group text box' :: Typing 'ДДТ'<br></span>
+                <span class="reporter-method-output">Button 'find button' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'click group link' :: Clicking<br></span>
+                <span class="reporter-method-output">Group page is downloaded<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 89msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 64msec<br></span>
                 <span class="reporter-method-output">Button 'Go to jobs' :: Clicking<br></span>
+                <span class="reporter-method-output">Jobs Page is downloaded<br></span>
                 <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
                 <span class="reporter-method-output">Text Field 'find job  text box' :: Typing 'Junior developer'<br></span>
                 <span class="reporter-method-output">Button 'Programing check box' :: Clicking<br></span>
                 <span class="reporter-method-output">Text Field 'salary text box' :: Typing '1000000'<br></span>
                 <span class="reporter-method-output">Button 'Find job button' :: Clicking<br></span>
-                <span class="reporter-method-output"><div class="skipped"></div><br></span>
-                <span class="reporter-method-output"><div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br></span>
-                <span class="reporter-method-output"><div class="skipped"></div><br></span>
+                <span class="reporter-method-output">search success<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 109msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 75msec<br></span>
+                <span class="reporter-method-output">Button 'jobs link' :: Clicking<br></span>
+                <span class="reporter-method-output">jobs page is present]<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'advanced search link' :: Clicking<br></span>
+                <span class="reporter-method-output">advanced search page is present<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'search field' :: Typing 'Junior developer'<br></span>
+                <span class="reporter-method-output">Button 'specialization libk' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'specialization checkbox' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'enter button' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'experience radio button' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'employment checkbox' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'schedule checkbox' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'find button' :: Clicking<br></span>
+                <span class="reporter-method-output">Search success<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 75msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 74msec<br></span>
+                <span class="reporter-method-output">Button 'all resources link' :: Clicking<br></span>
+                <span class="reporter-method-output">Field 'All Resources' appeared<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'blog link' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'catalog of blogs link' :: Clicking<br></span>
+                <span class="reporter-method-output">Label 'select blog label' :: Clicking<br></span>
+                <span class="reporter-method-output">Blog is downloaded<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'search field' :: Typing 'Творчество'<br></span>
+                <span class="reporter-method-output">Button 'find button' :: Clicking<br></span>
+                <span class="reporter-method-output">Search success<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 93msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 66msec<br></span>
+                <span class="reporter-method-output">Button 'all resources link' :: Clicking<br></span>
+                <span class="reporter-method-output">Field 'All Resources' appeared<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 76msec<br></span>
+                <span class="reporter-method-output">Button 'blog link' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'road rules' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'chapter button' :: Clicking<br></span>
+                <span class="reporter-method-output">Chapter found<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 147msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My form' appears in 102msec<br></span>
+                <span class="reporter-method-output">Button 'language link' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'search field' :: Typing 'інфармацыйныя тэхналогіі'<br></span>
+                <span class="reporter-method-output">Button 'find button' :: Clicking<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">***************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'demo.test.DemoTest' Passed! *****<br></span>
+                <span class="reporter-method-output">***************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -272,18 +333,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">demo.test.DemoTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">before(org.testng.TestRunner@dc7df28)</span>
+                <span class="method-name">before(org.testng.TestRunner@6c0d7c83)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">xTest</span>
-                <span class="method-start">34 ms</span>
+                <span class="method-start">51 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">after</span>
-                <span class="method-start">19422 ms</span>
+                <span class="method-start">83027 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

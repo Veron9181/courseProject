@@ -11,6 +11,6 @@ public class BlogFindAndGoToClass extends BlogFindAndGoToForm{
 		logger.step(2);
 		bfa.GoToBlog();
 		logger.step(3);
-		bfa.SearchInBlog();
+		bfa.SearchInBlog("Творчество");
 	}
 }

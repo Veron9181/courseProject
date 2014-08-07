@@ -33,8 +33,8 @@ public class JobAdvancedSearchForm extends BaseForm{
 		doAssert(lbAdvancedSearch.isPresent(), "advanced search page is present", "advanced search page is absent");
 		}
 	
-	public void CompleteAndFindForm() {
-		txSearchField.type("Junior developer");
+	public void CompleteAndFindForm(String SearchText) {
+		txSearchField.type(SearchText);
 		ltSpecialization.click();
 		chSelectSpec.click();
 		btEnter.click();

@@ -9,7 +9,6 @@ public class JobFindAndSortClass extends JobFindAndSortForm{
 		JobFindAndSortForm jfs = new JobFindAndSortForm();
 		jfs.GoToJobs();
 		logger.step(2);
-		jfs.FindJob();
-		// дописать фреймворк
+		jfs.FindJob("Junior developer", "Информационные технологии, интернет, телеком", "1000000");
 		}
 }

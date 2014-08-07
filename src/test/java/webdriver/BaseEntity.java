@@ -1,20 +1,12 @@
 package webdriver;
 
 import static org.testng.AssertJUnit.assertTrue;
-
 import java.io.BufferedReader;
-
 import java.io.InputStreamReader;
-
-
 import org.testng.ITestContext;
-
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-
 import webdriver.Browser.Browsers;
-
-
 
 /**
  * BaseEntity

@@ -37,15 +37,12 @@ public class SelectBox extends BaseElement {
     }
     
     public void select(String value){
-       WebDriver driver = browser.getDriver();
-       RemoteWebElement selects = (RemoteWebElement) driver.findElement(locator);
-       selects.click();
-       List<WebElement> options = selects.findElements(By.tagName("option"));
-       for (WebElement option : options){
-            if(value.equals(option.getText().trim())){
-               option.click();
-            }
-       }
+    	WebElement select = (WebElement) browser.getDriver().findElement(locator);
+    	List<WebElement> options = select.findElements(By.tagName("option"));
+    	for (WebElement option : options){
+    	if((option.getText()).equals(value)){
+    	option.click();
+    	}
+    	}
+    	}
     }
-    
-}

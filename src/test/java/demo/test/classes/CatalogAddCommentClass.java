@@ -13,9 +13,9 @@ public class CatalogAddCommentClass extends CatalogAddCommentForm{
 		CatalogAddCommentForm cac = new CatalogAddCommentForm();
 		cac.GoToCatalog();
 		logger.step(3);
-		cac.SearchCarwash();
+		cac.SearchCarwash("Олекскар");
 		logger.step(4);
-		cac.WriteComment();
+		cac.WriteComment("Хорошая автомойка! Советую.");
 		logger.step(5);
 		lgf.LoginQuit();
 		

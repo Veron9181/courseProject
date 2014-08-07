@@ -31,8 +31,8 @@ public class BlogFindAndGoToForm extends BaseForm{
 		doAssert(lbBlogAppear.isPresent(), "Blog is downloaded", "Blog isn't downloaded");
 	}
 	
-	public void SearchInBlog() {
-		txSearchField.type("Творчество");
+	public void SearchInBlog(String SearchText) {
+		txSearchField.type(SearchText);
 		btFind.click();
 		doAssert(lbTextFound.isPresent(), "Search success", "Search fail");
 	}
