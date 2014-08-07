@@ -14,7 +14,6 @@ public class JobFindAndSortForm extends BaseForm{
 	private TextBox txFindJob = new TextBox(By.id("main-search-applicant"),"find job  text box");
 	private SelectBox sbProfSphere = new SelectBox(By.name("specialization"),"Professional sphere select box");
 	private CheckBox chPrograming = new CheckBox(By.xpath("//input[@value='1.221']"),"Programing check box");
-	
 	private TextBox txSalary = new TextBox(By.name("salary"), "salary text box");
 	private Button btFindJob = new Button(By.xpath("//input[@value='Найти']"),"Find job button");
 	private Label lbSearchResult = new Label(By.partialLinkText("Изменить запрос"));	

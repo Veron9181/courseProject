@@ -25,6 +25,7 @@ public class CatalogAddCommentForm extends BaseForm{
 	public void SearchCarwash(String text) { 
 		SearchBox.type(text);
 		btFind.click();
+		doAssert(ltGoToCarwash.isPresent(), "Search succes", "Search fail");
 	}
 	
 	public void WriteComment(String comment) {

@@ -1,10 +1,7 @@
 package webdriver.elements;
 
 import java.util.List;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
+import org.openqa.selenium.*;
 
 /**
  * Class, Describing element select
@@ -39,10 +36,10 @@ public class SelectBox extends BaseElement {
     public void select(String value){
     	WebElement select = (WebElement) browser.getDriver().findElement(locator);
     	List<WebElement> options = select.findElements(By.tagName("option"));
-    	for (WebElement option : options){
-    	if((option.getText()).equals(value)){
-    	option.click();
-    	}
-    	}
+    		for (WebElement option : options){
+    				if((option.getText()).equals(value)){
+    					option.click();
+    				}
+    		}
     	}
     }

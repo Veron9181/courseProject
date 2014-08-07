@@ -28,6 +28,7 @@ public void Login(String username, String password) {
 
 public void LoginQuit () {
 	btQuit.click();
+	doAssert(buttonEnter1.isPresent(), "Logout success", "Logout fail");
 	}
 
 public LoginForm() {

@@ -16,13 +16,13 @@ public class LanguageChangeForm extends BaseForm{
 			
 	public void Changelanguage() {
 		ltSwitchToBelarus.click();
-		assert(lbLanguageChanged.isPresent());	
+		doAssert(lbLanguageChanged.isPresent(), "Language is changed", "Language isn't changed");	
 	}
 	
 	public void SearchText(String SearchText) {
 		txSearchField.type(SearchText);
 		btFind.click();
-		assert(lbSearchComplete.isPresent());
+		doAssert(lbSearchComplete.isPresent(), "Search success", "Search fail");
 	}
 		
 	public LanguageChangeForm() {

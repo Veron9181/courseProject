@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
     <line>
       <![CDATA[browser driver was constructed<br>]]>
@@ -20,13 +20,13 @@
       <![CDATA[--------==[ Preconditions ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Loginform' appears in 1339msec<br>]]>
+      <![CDATA[Form 'Loginform' appears in 1484msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 1 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Loginform' appears in 87msec<br>]]>
+      <![CDATA[Form 'Loginform' appears in 72msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'enter button' :: Clicking<br>]]>
@@ -53,308 +53,128 @@
       <![CDATA[Button 'Quit button' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'My form' appears in 1322msec<br>]]>
+      <![CDATA[Logout success<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'My form' appears in 72msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 1 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'My form' appears in 81msec<br>]]>
+      <![CDATA[Form 'My form' appears in 60msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'afisha link' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[Afisha page is downloaded<br>]]>
+      <![CDATA[<div class="skipped"></div><br>]]>
     </line>
     <line>
-      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+      <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
     </line>
     <line>
-      <![CDATA[Text Field 'search box afisha' :: Typing 'Three days grace'<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'afisha search button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Search success<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 69msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 69msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'eather page link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'click button to change' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'choose the city' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 96msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 78msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'muusic page link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Page downloaded<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'Music search link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Text Field 'find group text box' :: Typing 'ÄÄÒ'<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'find button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'click group link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Group page is downloaded<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 89msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 64msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'Go to jobs' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Jobs Page is downloaded<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Text Field 'find job  text box' :: Typing 'Junior developer'<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'Programing check box' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Text Field 'salary text box' :: Typing '1000000'<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'Find job button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[search success<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 109msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 75msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'jobs link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[jobs page is present]<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'advanced search link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[advanced search page is present<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Text Field 'search field' :: Typing 'Junior developer'<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'specialization libk' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'specialization checkbox' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'enter button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'experience radio button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'employment checkbox' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'schedule checkbox' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'find button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Search success<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 75msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 74msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'all resources link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Field 'All Resources' appeared<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'blog link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'catalog of blogs link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Label 'select blog label' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Blog is downloaded<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Text Field 'search field' :: Typing 'Òâîð÷åñòâî'<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'find button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Search success<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 93msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 66msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'all resources link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Field 'All Resources' appeared<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 76msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'blog link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'road rules' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'chapter button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Chapter found<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 147msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'My form' appears in 102msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'language link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Text Field 'search field' :: Typing '³íôàðìàöûéíûÿ òýõíàëîã³³'<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'find button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
-    </line>
-    <line>
-      <![CDATA[***************************************************<br>]]>
-    </line>
-    <line>
-      <![CDATA[***** Test case: 'demo.test.DemoTest' Passed! *****<br>]]>
-    </line>
-    <line>
-      <![CDATA[***************************************************<br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
-    </line>
-    <line>
-      <![CDATA[driver.quit...<br>]]>
+      <![CDATA[<div class="skipped"></div><br>]]>
     </line>
     <line>
       <![CDATA[killing processes<br>]]>
     </line>
+    <line>
+      <![CDATA[“á¯¥è­®: à®æ¥áá "firefox.exe", á ¨¤¥­â¨ä¨ª â®à®¬ 6624, ¡ë« § ¢¥àè¥­.<br>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="86633" started-at="2014-08-06T18:47:52Z" finished-at="2014-08-06T18:49:19Z">
+  <suite name="Default suite" duration-ms="13864" started-at="2014-08-07T10:26:54Z" finished-at="2014-08-07T10:27:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="86633" started-at="2014-08-06T18:47:52Z" finished-at="2014-08-06T18:49:19Z">
+    <test name="Default test" duration-ms="13864" started-at="2014-08-07T10:26:54Z" finished-at="2014-08-07T10:27:08Z">
       <class name="demo.test.DemoTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.DemoTest@48f278eb]" name="before" is-config="true" duration-ms="49" started-at="2014-08-06T21:47:52Z" finished-at="2014-08-06T21:47:53Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:demo.test.DemoTest@48f278eb]" name="before" is-config="true" duration-ms="52" started-at="2014-08-07T13:26:54Z" finished-at="2014-08-07T13:26:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6c0d7c83]]>
+                <![CDATA[org.testng.TestRunner@194fad1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:demo.test.DemoTest@48f278eb]" name="xTest" duration-ms="82975" started-at="2014-08-06T21:47:53Z" finished-at="2014-08-06T21:49:15Z">
+        <test-method status="FAIL" signature="xTest()[pri:0, instance:demo.test.DemoTest@48f278eb]" name="xTest" duration-ms="12325" started-at="2014-08-07T13:26:54Z" finished-at="2014-08-07T13:27:06Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Window not found. The browser window may have been closed.
+Command duration or timeout: 20 milliseconds
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'Veronika', ip: '172.20.32.97', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=XP, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a9028792-753d-49f3-b7f0-a2888ba1db97]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 20 milliseconds
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'Veronika', ip: '172.20.32.97', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=XP, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a9028792-753d-49f3-b7f0-a2888ba1db97
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.firefox.FirefoxDriver.access$100(FirefoxDriver.java:74)
+	at org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:220)
+	at webdriver.elements.BaseElement.isPresent(BaseElement.java:276)
+	at webdriver.elements.BaseElement.isPresent(BaseElement.java:267)
+	at demo.test.forms.AfishaFindEventForm.GoToAfisha(AfishaFindEventForm.java:19)
+	at demo.test.classes.AfishaFindEventClass.AfishaFindEvent(AfishaFindEventClass.java:10)
+	at demo.test.DemoTest.runTest(DemoTest.java:18)
+	at webdriver.BaseTest.xTest(BaseTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Window not found. The browser window may have been closed.
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'Veronika', ip: '172.20.32.97', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_05'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///C:/Users/lENOVO/AppData/Local/Temp/anonymous8271647870129015192webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10949:11)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///C:/Users/lENOVO/AppData/Local/Temp/anonymous8271647870129015192webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7717:5)
+	at <anonymous class>.Resource.prototype.handle(file:///C:/Users/lENOVO/AppData/Local/Temp/anonymous8271647870129015192webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7863:194)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/lENOVO/AppData/Local/Temp/anonymous8271647870129015192webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7810:36)
+	at <anonymous class>.WebDriverServer/<.handle(file:///C:/Users/lENOVO/AppData/Local/Temp/anonymous8271647870129015192webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:10733:5)
+	at <anonymous class>.createHandlerFunc/<(file:///C:/Users/lENOVO/AppData/Local/Temp/anonymous8271647870129015192webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1935:41)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///C:/Users/lENOVO/AppData/Local/Temp/anonymous8271647870129015192webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2261:15)
+	at <anonymous class>.Connection.prototype.process(file:///C:/Users/lENOVO/AppData/Local/Temp/anonymous8271647870129015192webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1168:5)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///C:/Users/lENOVO/AppData/Local/Temp/anonymous8271647870129015192webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1616:5)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///C:/Users/lENOVO/AppData/Local/Temp/anonymous8271647870129015192webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1464:9)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///C:/Users/lENOVO/AppData/Local/Temp/anonymous8271647870129015192webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1333:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
             <line>
               <![CDATA[----------------------------------------------------------------------------<br>]]>
@@ -369,13 +189,13 @@
               <![CDATA[--------==[ Preconditions ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Loginform' appears in 1339msec<br>]]>
+              <![CDATA[Form 'Loginform' appears in 1484msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 1 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Loginform' appears in 87msec<br>]]>
+              <![CDATA[Form 'Loginform' appears in 72msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'enter button' :: Clicking<br>]]>
@@ -402,293 +222,38 @@
               <![CDATA[Button 'Quit button' :: Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'My form' appears in 1322msec<br>]]>
+              <![CDATA[Logout success<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'My form' appears in 72msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 1 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'My form' appears in 81msec<br>]]>
+              <![CDATA[Form 'My form' appears in 60msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'afisha link' :: Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[Afisha page is downloaded<br>]]>
+              <![CDATA[<div class="skipped"></div><br>]]>
             </line>
             <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+              <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
             </line>
             <line>
-              <![CDATA[Text Field 'search box afisha' :: Typing 'Three days grace'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'afisha search button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Search success<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 69msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 69msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'eather page link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'click button to change' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'choose the city' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 96msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 78msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'muusic page link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Page downloaded<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Music search link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'find group text box' :: Typing 'ÄÄÒ'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'find button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'click group link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Group page is downloaded<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 89msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 64msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Go to jobs' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Jobs Page is downloaded<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'find job  text box' :: Typing 'Junior developer'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Programing check box' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'salary text box' :: Typing '1000000'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Find job button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[search success<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 109msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 75msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'jobs link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[jobs page is present]<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'advanced search link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[advanced search page is present<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'search field' :: Typing 'Junior developer'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'specialization libk' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'specialization checkbox' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'enter button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'experience radio button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'employment checkbox' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'schedule checkbox' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'find button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Search success<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 75msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 74msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'all resources link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Field 'All Resources' appeared<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'blog link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'catalog of blogs link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Label 'select blog label' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Blog is downloaded<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'search field' :: Typing 'Òâîð÷åñòâî'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'find button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Search success<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 93msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 66msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'all resources link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Field 'All Resources' appeared<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 76msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'blog link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'road rules' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'chapter button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Chapter found<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 147msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'My form' appears in 102msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'language link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'search field' :: Typing '³íôàðìàöûéíûÿ òýõíàëîã³³'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'find button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-            <line>
-              <![CDATA[***************************************************<br>]]>
-            </line>
-            <line>
-              <![CDATA[***** Test case: 'demo.test.DemoTest' Passed! *****<br>]]>
-            </line>
-            <line>
-              <![CDATA[***************************************************<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
+              <![CDATA[<div class="skipped"></div><br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.DemoTest@48f278eb]" name="after" is-config="true" duration-ms="3597" started-at="2014-08-06T21:49:15Z" finished-at="2014-08-06T21:49:19Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:demo.test.DemoTest@48f278eb]" name="after" is-config="true" duration-ms="1452" started-at="2014-08-07T13:27:06Z" finished-at="2014-08-07T13:27:08Z">
           <reporter-output>
             <line>
-              <![CDATA[driver.quit...<br>]]>
+              <![CDATA[killing processes<br>]]>
             </line>
             <line>
-              <![CDATA[killing processes<br>]]>
+              <![CDATA[“á¯¥è­®: à®æ¥áá "firefox.exe", á ¨¤¥­â¨ä¨ª â®à®¬ 6624, ¡ë« § ¢¥àè¥­.<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- after -->
