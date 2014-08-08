@@ -17,7 +17,7 @@
   		<parameter name="musicSearch" value="ДДТ" />
   		
 		<classes>
-			<class name="test.CataloAddCommentTest" />
+			<class name="test.CatalogAddCommentTest" />
 			<class name="test.LoginTest" />
 			<class name="test.AfishaFindEventTest" />
 			<class name="test.BlogFindAndGoToTest" />
