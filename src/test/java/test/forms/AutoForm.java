@@ -27,6 +27,6 @@ public class AutoForm extends BaseForm{
 	}
 	
 	public AutoForm() {
-		super(formlocator, "My form");
+		super(formlocator, "Auto form");
 		}
 }

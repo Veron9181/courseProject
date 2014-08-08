@@ -41,6 +41,6 @@ public class JobAdvancedSearchForm extends BaseForm{
 		}
 	
 	public JobAdvancedSearchForm() {
-		super(formlocator, "My form");
+		super(formlocator, "JobAdnancedSearch form");
 	}
 }

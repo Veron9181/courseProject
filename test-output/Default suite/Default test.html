@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/16/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Aug 08 03:33:18 FET 2014</td>
+<td>Started on:</td><td>Sat Aug 09 01:22:38 FET 2014</td>
 </tr>
-<tr><td>Total time:</td><td>217 seconds (217554 ms)</td>
+<tr><td>Total time:</td><td>368 seconds (368399 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,605 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.MusicFindGroupTest.xTest()'><b>xTest</b><br>Test class: test.MusicFindGroupTest<br/>
+<a href="#Output-352083716" onClick='toggleBox("Output-352083716", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-352083716" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-352083716">
+---------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'test.MusicFindGroupTest' =====================<br><br/>
+---------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Main form' appears in 14616msec<br><br/>
+Button 'muusic page link' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Form 'Music form' appears in 72msec<br><br/>
+Page downloaded<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Button 'Music search link' :: Clicking<br><br/>
+<div class="skipped"></div><br><br/>
+<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br><br/>
+<div class="skipped"></div><br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at webdriver.elements.BaseElement.waitForIsElementPresent(BaseElement.java:181)
+	at webdriver.elements.TextBox.type(TextBox.java:53)
+	at test.forms.MusicForm.FindGroup(MusicForm.java:32)
+	at test.MusicFindGroupTest.runTest(MusicFindGroupTest.java:20)
+	at webdriver.BaseTest.xTest(BaseTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace352083716", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace352083716'><pre>java.lang.NullPointerException
+	at webdriver.elements.BaseElement.waitForIsElementPresent(BaseElement.java:181)
+	at webdriver.elements.TextBox.type(TextBox.java:53)
+	at test.forms.MusicForm.FindGroup(MusicForm.java:32)
+	at test.MusicFindGroupTest.runTest(MusicFindGroupTest.java:20)
+	at webdriver.BaseTest.xTest(BaseTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>53</td>
+<td>test.MusicFindGroupTest@d5b810e</td></tr>
+<tr>
+<td title='test.LoginTest.xTest()'><b>xTest</b><br>Test class: test.LoginTest<br/>
+<a href="#Output-1564698139" onClick='toggleBox("Output-1564698139", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1564698139" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1564698139">
+------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'test.LoginTest' =====================<br><br/>
+------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Main form' appears in 13887msec<br><br/>
+Button 'enter button' :: Clicking<br><br/>
+Text Field 'user name' :: Typing 'null'<br><br/>
+Text Field 'password' :: Typing 'null'<br><br/>
+<div class="skipped"></div><br><br/>
+<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br><br/>
+<div class="skipped"></div><br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at webdriver.elements.BaseElement.waitForIsElementPresent(BaseElement.java:181)
+	at webdriver.elements.BaseElement.click(BaseElement.java:236)
+	at test.forms.MainPageForm.Login(MainPageForm.java:60)
+	at test.LoginTest.runTest(LoginTest.java:15)
+	at webdriver.BaseTest.xTest(BaseTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1564698139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1564698139'><pre>java.lang.NullPointerException
+	at webdriver.elements.BaseElement.waitForIsElementPresent(BaseElement.java:181)
+	at webdriver.elements.BaseElement.click(BaseElement.java:236)
+	at test.forms.MainPageForm.Login(MainPageForm.java:60)
+	at test.LoginTest.runTest(LoginTest.java:15)
+	at webdriver.BaseTest.xTest(BaseTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>46</td>
+<td>test.LoginTest@1b2abca6</td></tr>
+<tr>
+<td title='test.FindRoadRulesTest.xTest()'><b>xTest</b><br>Test class: test.FindRoadRulesTest<br/>
+<a href="#Output-33233312" onClick='toggleBox("Output-33233312", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-33233312" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-33233312">
+--------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'test.FindRoadRulesTest' =====================<br><br/>
+--------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Main form' appears in 23219msec<br><br/>
+Button 'all resources link' :: Clicking<br><br/>
+Field 'All Resources' appeared<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Button 'blog link' :: Clicking<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+<div class="failedConfig">Form 'Auto form' doesn't appear</div><br><br/>
+<div class="skipped"></div><br><br/>
+<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br><br/>
+<div class="skipped"></div><br><br/>
+</div>
+</td>
+<td><div><pre>junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at webdriver.Logger.fatal(Logger.java:256)
+	at webdriver.BaseEntity.fatal(BaseEntity.java:85)
+	at webdriver.BaseForm.assertIsOpen(BaseForm.java:98)
+	at webdriver.BaseForm.&lt;init&gt;(BaseForm.java:37)
+	at test.forms.AutoForm.&lt;init&gt;(AutoForm.java:30)
+	at test.FindRoadRulesTest.runTest(FindRoadRulesTest.java:19)
+	at webdriver.BaseTest.xTest(BaseTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace33233312", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace33233312'><pre>junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at webdriver.Logger.fatal(Logger.java:256)
+	at webdriver.BaseEntity.fatal(BaseEntity.java:85)
+	at webdriver.BaseForm.assertIsOpen(BaseForm.java:98)
+	at webdriver.BaseForm.&lt;init&gt;(BaseForm.java:37)
+	at test.forms.AutoForm.&lt;init&gt;(AutoForm.java:30)
+	at test.FindRoadRulesTest.runTest(FindRoadRulesTest.java:19)
+	at webdriver.BaseTest.xTest(BaseTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>49</td>
+<td>test.FindRoadRulesTest@4fb3ee4e</td></tr>
+<tr>
+<td title='test.JobAdvancedSearchTest.xTest()'><b>xTest</b><br>Test class: test.JobAdvancedSearchTest<br/>
+<a href="#Output-1237740254" onClick='toggleBox("Output-1237740254", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1237740254" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1237740254">
+------------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'test.JobAdvancedSearchTest' =====================<br><br/>
+------------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+<div class="skipped"></div><br><br/>
+<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br><br/>
+<div class="skipped"></div><br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;Veronika&apos;, ip: &apos;100.93.192.202&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:800)
+	at webdriver.Browser.navigate(Browser.java:215)
+	at test.JobAdvancedSearchTest.runTest(JobAdvancedSearchTest.java:13)
+	at webdriver.BaseTest.xTest(BaseTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:337)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 29 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1237740254", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1237740254'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;Veronika&apos;, ip: &apos;100.93.192.202&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:800)
+	at webdriver.Browser.navigate(Browser.java:215)
+	at test.JobAdvancedSearchTest.runTest(JobAdvancedSearchTest.java:13)
+	at webdriver.BaseTest.xTest(BaseTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:337)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 29 more
+</pre></div></td>
+<td>4</td>
+<td>test.JobAdvancedSearchTest@bae7dc0</td></tr>
+<tr>
+<td title='test.CatalogAddCommentTest.xTest()'><b>xTest</b><br>Test class: test.CatalogAddCommentTest<br/>
+<a href="#Output-1545827753" onClick='toggleBox("Output-1545827753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1545827753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1545827753">
+------------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'test.CatalogAddCommentTest' =====================<br><br/>
+------------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+<div class="failedConfig">Form 'Main form' doesn't appear</div><br><br/>
+<div class="skipped"></div><br><br/>
+<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br><br/>
+<div class="skipped"></div><br><br/>
+</div>
+</td>
+<td><div><pre>junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at webdriver.Logger.fatal(Logger.java:256)
+	at webdriver.BaseEntity.fatal(BaseEntity.java:85)
+	at webdriver.BaseForm.assertIsOpen(BaseForm.java:98)
+	at webdriver.BaseForm.&lt;init&gt;(BaseForm.java:37)
+	at test.forms.MainPageForm.&lt;init&gt;(MainPageForm.java:120)
+	at test.CatalogAddCommentTest.runTest(CatalogAddCommentTest.java:14)
+	at webdriver.BaseTest.xTest(BaseTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1545827753", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1545827753'><pre>junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at webdriver.Logger.fatal(Logger.java:256)
+	at webdriver.BaseEntity.fatal(BaseEntity.java:85)
+	at webdriver.BaseForm.assertIsOpen(BaseForm.java:98)
+	at webdriver.BaseForm.&lt;init&gt;(BaseForm.java:37)
+	at test.forms.MainPageForm.&lt;init&gt;(MainPageForm.java:120)
+	at test.CatalogAddCommentTest.runTest(CatalogAddCommentTest.java:14)
+	at webdriver.BaseTest.xTest(BaseTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>8</td>
+<td>test.CatalogAddCommentTest@209da20d</td></tr>
+<tr>
+<td title='test.BlogFindAndGoToTest.xTest()'><b>xTest</b><br>Test class: test.BlogFindAndGoToTest<br/>
+<a href="#Output-341372316" onClick='toggleBox("Output-341372316", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-341372316" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-341372316">
+----------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'test.BlogFindAndGoToTest' =====================<br><br/>
+----------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+<div class="failedConfig">Form 'Main form' doesn't appear</div><br><br/>
+<div class="skipped"></div><br><br/>
+<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br><br/>
+<div class="skipped"></div><br><br/>
+</div>
+</td>
+<td><div><pre>junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at webdriver.Logger.fatal(Logger.java:256)
+	at webdriver.BaseEntity.fatal(BaseEntity.java:85)
+	at webdriver.BaseForm.assertIsOpen(BaseForm.java:98)
+	at webdriver.BaseForm.&lt;init&gt;(BaseForm.java:37)
+	at test.forms.MainPageForm.&lt;init&gt;(MainPageForm.java:120)
+	at test.BlogFindAndGoToTest.runTest(BlogFindAndGoToTest.java:15)
+	at webdriver.BaseTest.xTest(BaseTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace341372316", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace341372316'><pre>junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at webdriver.Logger.fatal(Logger.java:256)
+	at webdriver.BaseEntity.fatal(BaseEntity.java:85)
+	at webdriver.BaseForm.assertIsOpen(BaseForm.java:98)
+	at webdriver.BaseForm.&lt;init&gt;(BaseForm.java:37)
+	at test.forms.MainPageForm.&lt;init&gt;(MainPageForm.java:120)
+	at test.BlogFindAndGoToTest.runTest(BlogFindAndGoToTest.java:15)
+	at webdriver.BaseTest.xTest(BaseTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>6</td>
+<td>test.BlogFindAndGoToTest@2ed2d9cb</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,144 +674,697 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='demo.test.DemoTest.xTest()'><b>xTest</b><br>Test class: demo.test.DemoTest<br/>
-<a href="#Output-1101048445" onClick='toggleBox("Output-1101048445", this, "Show output", "Hide output");'>Show output</a>
+<td title='test.JobFindAndSortTest.xTest()'><b>xTest</b><br>Test class: test.JobFindAndSortTest<br/>
+<a href="#Output-2097905212" onClick='toggleBox("Output-2097905212", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1101048445" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1101048445">
-----------------------------------------------------------------------------<br><br/>
-=====================  Test case: 'demo.test.DemoTest' =====================<br><br/>
-----------------------------------------------------------------------------<br><br/>
+<a href="#Output-2097905212" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2097905212">
+---------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'test.JobFindAndSortTest' =====================<br><br/>
+---------------------------------------------------------------------------------<br><br/>
 --------==[ Preconditions ]==--------<br><br/>
-Form 'My form' appears in 14326msec<br><br/>
 --------==[ Step 1 ]==--------<br><br/>
-Form 'My form' appears in 67msec<br><br/>
-Button 'enter button' :: Clicking<br><br/>
-Text Field 'user name' :: Typing 'courseProject'<br><br/>
-Text Field 'password' :: Typing 'q1w2e3r4t5y6'<br><br/>
-Button 'enter button 2' :: Clicking<br><br/>
-Button 'close button' :: Clicking<br><br/>
-Login success<br><br/>
 --------==[ Step 2 ]==--------<br><br/>
-Button 'logout button' :: Clicking<br><br/>
-Logout success<br><br/>
-Form 'My form' appears in 69msec<br><br/>
---------==[ Step 1 ]==--------<br><br/>
-Form 'My form' appears in 59msec<br><br/>
-Button 'afisha link' :: Clicking<br><br/>
---------==[ Step 2 ]==--------<br><br/>
-Form 'My form' appears in 705msec<br><br/>
-Afisha page is downloaded<br><br/>
---------==[ Step 3 ]==--------<br><br/>
-Text Field 'search box afisha' :: Typing 'Three days grace'<br><br/>
-Button 'afisha search button' :: Clicking<br><br/>
-Search success<br><br/>
-Form 'My form' appears in 92msec<br><br/>
---------==[ Step 1 ]==--------<br><br/>
-Form 'My form' appears in 57msec<br><br/>
-Button 'eather page link' :: Clicking<br><br/>
---------==[ Step 1 ]==--------<br><br/>
-Form 'My form' appears in 75msec<br><br/>
-Weather page is downloaded<br><br/>
---------==[ Step 2 ]==--------<br><br/>
-Button 'click button to change' :: Clicking<br><br/>
-Button 'choose the city' :: Clicking<br><br/>
-City changed successfuly<br><br/>
-Form 'My form' appears in 56msec<br><br/>
---------==[ Step 1 ]==--------<br><br/>
-Form 'My form' appears in 53msec<br><br/>
-Button 'muusic page link' :: Clicking<br><br/>
---------==[ Step 2 ]==--------<br><br/>
-Form 'My form' appears in 71msec<br><br/>
-Page downloaded<br><br/>
---------==[ Step 3 ]==--------<br><br/>
-Button 'Music search link' :: Clicking<br><br/>
-Text Field 'find group text box' :: Typing 'ДДТ'<br><br/>
-Button 'find button' :: Clicking<br><br/>
-Button 'click group link' :: Clicking<br><br/>
-Group page is downloaded<br><br/>
-Form 'My form' appears in 80msec<br><br/>
---------==[ Step 1 ]==--------<br><br/>
-Form 'My form' appears in 51msec<br><br/>
+Form 'Main form' appears in 17402msec<br><br/>
 Button 'Go to jobs' :: Clicking<br><br/>
---------==[ Step 1 ]==--------<br><br/>
-Form 'My form' appears in 202msec<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Form 'Job form' appears in 192msec<br><br/>
 Jobs Page is downloaded<br><br/>
---------==[ Step 2 ]==--------<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
 Text Field 'find job  text box' :: Typing 'Junior developer'<br><br/>
-Button 'Programing check box' :: Clicking<br><br/>
+Button 'Programing check box' :: Setting value 'true'<br><br/>
 Text Field 'salary text box' :: Typing '1000000'<br><br/>
 Button 'Find job button' :: Clicking<br><br/>
 Search success<br><br/>
-Form 'My form' appears in 91msec<br><br/>
---------==[ Step 1 ]==--------<br><br/>
-Form 'My form' appears in 56msec<br><br/>
-Button 'Go to jobs' :: Clicking<br><br/>
---------==[ Step 2 ]==--------<br><br/>
-Form 'My form' appears in 176msec<br><br/>
-Button 'advanced search link' :: Clicking<br><br/>
---------==[ Step 3 ]==--------<br><br/>
-Form 'My form' appears in 261msec<br><br/>
-advanced search page is present<br><br/>
---------==[ Step 4 ]==--------<br><br/>
-Text Field 'search field' :: Typing 'Junior developer'<br><br/>
-Button 'specialization libk' :: Clicking<br><br/>
-Button 'specialization checkbox' :: Setting value 'true'<br><br/>
-Button 'enter button' :: Clicking<br><br/>
-Button 'experience radio button' :: Clicking<br><br/>
-Button 'employment checkbox' :: Setting value 'true'<br><br/>
-Button 'schedule checkbox' :: Setting value 'true'<br><br/>
-Button 'find button' :: Clicking<br><br/>
-Search success<br><br/>
-Form 'My form' appears in 78msec<br><br/>
---------==[ Step 1 ]==--------<br><br/>
-Form 'My form' appears in 50msec<br><br/>
-Button 'all resources link' :: Clicking<br><br/>
-Field 'All Resources' appeared<br><br/>
---------==[ Step 2 ]==--------<br><br/>
-Button 'blog link' :: Clicking<br><br/>
---------==[ Step 3 ]==--------<br><br/>
-Form 'My form' appears in 69msec<br><br/>
-Button 'catalog of blogs link' :: Clicking<br><br/>
-Button 'select blog label' :: Clicking<br><br/>
---------==[ Step 4 ]==--------<br><br/>
-Form 'My form' appears in 72msec<br><br/>
-Blog is downloaded<br><br/>
---------==[ Step 5 ]==--------<br><br/>
-Text Field 'search field' :: Typing 'Творчество'<br><br/>
-Button 'find button' :: Clicking<br><br/>
-Search success<br><br/>
-Form 'My form' appears in 78msec<br><br/>
---------==[ Step 1 ]==--------<br><br/>
-Form 'My form' appears in 61msec<br><br/>
-Button 'all resources link' :: Clicking<br><br/>
-Field 'All Resources' appeared<br><br/>
---------==[ Step 2 ]==--------<br><br/>
-Button 'blog link' :: Clicking<br><br/>
---------==[ Step 3 ]==--------<br><br/>
-Form 'My form' appears in 643msec<br><br/>
-Button 'road rules' :: Clicking<br><br/>
-Button 'chapter button' :: Clicking<br><br/>
-Chapter found<br><br/>
-Form 'My form' appears in 84msec<br><br/>
---------==[ Step 1 ]==--------<br><br/>
-Form 'My form' appears in 59msec<br><br/>
-Button 'language link' :: Clicking<br><br/>
-Language is changed<br><br/>
---------==[ Step 1 ]==--------<br><br/>
-Text Field 'search field' :: Typing 'інфармацыйныя тэхналогіі'<br><br/>
-Button 'find button' :: Clicking<br><br/>
-Search success<br><br/>
 <br><br/>
-***************************************************<br><br/>
-***** Test case: 'demo.test.DemoTest' Passed! *****<br><br/>
-***************************************************<br><br/>
+********************************************************<br><br/>
+***** Test case: 'test.JobFindAndSortTest' Passed! *****<br><br/>
+********************************************************<br><br/>
 <br><br/>
 </div>
 </td>
 <td></td>
-<td>214</td>
-<td>demo.test.DemoTest@48f278eb</td></tr>
+<td>39</td>
+<td>test.JobFindAndSortTest@e15b7e8</td></tr>
+<tr>
+<td title='test.LanguageChangeTest.xTest()'><b>xTest</b><br>Test class: test.LanguageChangeTest<br/>
+<a href="#Output-573200870" onClick='toggleBox("Output-573200870", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-573200870" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-573200870">
+---------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'test.LanguageChangeTest' =====================<br><br/>
+---------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Main form' appears in 14501msec<br><br/>
+Button 'language link' :: Clicking<br><br/>
+Language is changed<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Text Field 'search field' :: Typing 'інфармацыйныя тэхналогіі'<br><br/>
+Button 'find button' :: Clicking<br><br/>
+Search success<br><br/>
+<br><br/>
+********************************************************<br><br/>
+***** Test case: 'test.LanguageChangeTest' Passed! *****<br><br/>
+********************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>test.LanguageChangeTest@43dac38f</td></tr>
+<tr>
+<td title='test.AfishaFindEventTest.xTest()'><b>xTest</b><br>Test class: test.AfishaFindEventTest<br/>
+<a href="#Output-38544126" onClick='toggleBox("Output-38544126", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-38544126" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-38544126">
+----------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'test.AfishaFindEventTest' =====================<br><br/>
+----------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Main form' appears in 13510msec<br><br/>
+Button 'afisha link' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Form 'Afisha form' appears in 794msec<br><br/>
+Afisha page is downloaded<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Text Field 'search box afisha' :: Typing 'Three days grace'<br><br/>
+Button 'afisha search button' :: Clicking<br><br/>
+Search success<br><br/>
+<br><br/>
+*********************************************************<br><br/>
+***** Test case: 'test.AfishaFindEventTest' Passed! *****<br><br/>
+*********************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>test.AfishaFindEventTest@6392827e</td></tr>
+<tr>
+<td title='test.WeatherChangeCityTest.xTest()'><b>xTest</b><br>Test class: test.WeatherChangeCityTest<br/>
+<a href="#Output-1063737662" onClick='toggleBox("Output-1063737662", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1063737662" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1063737662">
+------------------------------------------------------------------------------------<br><br/>
+=====================  Test case: 'test.WeatherChangeCityTest' =====================<br><br/>
+------------------------------------------------------------------------------------<br><br/>
+--------==[ Preconditions ]==--------<br><br/>
+--------==[ Step 1 ]==--------<br><br/>
+--------==[ Step 2 ]==--------<br><br/>
+Form 'Main form' appears in 23821msec<br><br/>
+Button 'Weather page link' :: Clicking<br><br/>
+--------==[ Step 3 ]==--------<br><br/>
+Form 'Weather form' appears in 80msec<br><br/>
+Weather page is downloaded<br><br/>
+--------==[ Step 4 ]==--------<br><br/>
+Button 'click button to change' :: Clicking<br><br/>
+Button 'choose the city' :: Clicking<br><br/>
+City changed successfuly<br><br/>
+<br><br/>
+***********************************************************<br><br/>
+***** Test case: 'test.WeatherChangeCityTest' Passed! *****<br><br/>
+***********************************************************<br><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>test.WeatherChangeCityTest@342c38f8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.JobFindAndSortTest.readParams()'><b>readParams</b><br>Test class: test.JobFindAndSortTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace987547666", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace987547666'><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test.JobFindAndSortTest@e15b7e8</td></tr>
+<tr>
+<td title='test.MusicFindGroupTest.readParams()'><b>readParams</b><br>Test class: test.MusicFindGroupTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace893591815", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace893591815'><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test.MusicFindGroupTest@d5b810e</td></tr>
+<tr>
+<td title='test.LanguageChangeTest.readParams()'><b>readParams</b><br>Test class: test.LanguageChangeTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2067925017", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2067925017'><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test.LanguageChangeTest@43dac38f</td></tr>
+<tr>
+<td title='test.AfishaFindEventTest.readParams()'><b>readParams</b><br>Test class: test.AfishaFindEventTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2048529572", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2048529572'><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test.AfishaFindEventTest@6392827e</td></tr>
+<tr>
+<td title='test.LoginTest.readParams()'><b>readParams</b><br>Test class: test.LoginTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace643489709", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace643489709'><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test.LoginTest@1b2abca6</td></tr>
+<tr>
+<td title='test.FindRoadRulesTest.readParams()'><b>readParams</b><br>Test class: test.FindRoadRulesTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace171809144", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace171809144'><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test.FindRoadRulesTest@4fb3ee4e</td></tr>
+<tr>
+<td title='test.WeatherChangeCityTest.readParams()'><b>readParams</b><br>Test class: test.WeatherChangeCityTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1632914150", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1632914150'><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test.WeatherChangeCityTest@342c38f8</td></tr>
+<tr>
+<td title='test.JobAdvancedSearchTest.readParams()'><b>readParams</b><br>Test class: test.JobAdvancedSearchTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1262607708", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1262607708'><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test.JobAdvancedSearchTest@bae7dc0</td></tr>
+<tr>
+<td title='test.CatalogAddCommentTest.readParams()'><b>readParams</b><br>Test class: test.CatalogAddCommentTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace999736366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace999736366'><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test.CatalogAddCommentTest@209da20d</td></tr>
+<tr>
+<td title='test.BlogFindAndGoToTest.readParams()'><b>readParams</b><br>Test class: test.BlogFindAndGoToTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1560702077", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1560702077'><pre>org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method readParams but has not been marked @Optional or defined
+in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test.BlogFindAndGoToTest@2ed2d9cb</td></tr>
 </table><p>
 </body>
 </html>

@@ -10,7 +10,7 @@ import webdriver.elements.TextBox;
 
 public class MusicForm extends BaseForm{
 	
-	private static By formlocator = By.xpath("//h1[contains(text(),'Популярные альбомы')]");
+	private static By formlocator = By.xpath("//a[contains(text(),'новости шоубизнеса')]");
 	/**
 	 * Локаторы для теста MusicFindGroup
 	 */
@@ -36,6 +36,6 @@ public class MusicForm extends BaseForm{
 	}
 		
 	public MusicForm() {
-		super(formlocator, "My form");
+		super(formlocator, "Music form");
 	}
 }

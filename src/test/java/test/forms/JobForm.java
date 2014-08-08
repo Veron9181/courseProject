@@ -38,7 +38,7 @@ public class JobForm extends BaseForm{
 	public void FindJob(String job, String SelectText, String number) {
 		txFindJob.type(job);
 		sbProfSphere.select(SelectText);
-		chPrograming.click();
+		chPrograming.check(true);
 		txSalary.type(number);
 		btFindJob.click();
 		doAssert(lbSearchResult.isPresent(), "Search success", "Search fail");
@@ -51,6 +51,6 @@ public class JobForm extends BaseForm{
 		}
 		
 	public JobForm() {
-		super(formlocator, "My form");
+		super(formlocator, "Job form");
 	}
 }

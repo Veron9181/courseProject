@@ -32,6 +32,6 @@ public class AfishaForm extends BaseForm{
 		}
 		
 	public AfishaForm() {
-		super(formlocator, "My form");
+		super(formlocator, "Afisha form");
 		}
 }

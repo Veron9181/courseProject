@@ -32,6 +32,6 @@ public class ExternalBlogForm extends BaseForm{
 	}
 		
 	public ExternalBlogForm() {
-		super(formlocator, "My form");
+		super(formlocator, "ExternalBlog form");
 		}	
 }

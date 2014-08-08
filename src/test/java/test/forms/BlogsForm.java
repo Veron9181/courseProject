@@ -23,6 +23,6 @@ public class BlogsForm extends BaseForm{
 		}
 		
 	public BlogsForm() {
-		super(formlocator, "My form");
+		super(formlocator, "Blogs form");
 		}
 }

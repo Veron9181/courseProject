@@ -2,6 +2,7 @@ package test.forms;
 
 import org.openqa.selenium.By;
 
+
 import webdriver.BaseForm;
 import webdriver.elements.Button;
 import webdriver.elements.Label;
@@ -11,6 +12,7 @@ import webdriver.elements.TextBox;
 public class MainPageForm extends BaseForm{
 	
 	private static By formlocator = By.xpath("//img[@id='pageLogo']");
+	
 	/**
 	 * Локаторы для теста Login
 	 */
@@ -22,39 +24,21 @@ public class MainPageForm extends BaseForm{
 	private Label lbLoginAssert = new Label(By.id("geotarget_top_selector"),"login assert");
 	private Button btLogout = new Button(By.xpath("//a[@class='gray-link exit']"),"logout button");
 	/**
-	 * Локаторы для теста AfishaFindEvent
+	 * Navigate
 	 */
 	private LinkText ltAfisha = new LinkText(By.xpath("//a[@title='Афиша']"),"afisha link");
-	/**
-	 * Локаторы для теста WeatherChangeCity
-	 */
-	private LinkText ltWeather = new LinkText(By.xpath("//a[@title='Погода']"),"eather page link");
-	/**
-	 * Локаторы для теста CatalogAddComment
-	 */
+	private LinkText ltWeather = new LinkText(By.xpath("//a[@title='Погода']"),"Weather page link");
 	private LinkText ltCatalog = new LinkText(By.xpath("//a[@title='Каталог']"),"catalog link");
-	/**
-	 * Локаторы для теста MusicFindGroup
-	 */
 	private LinkText ltMusic = new LinkText(By.xpath("//a[@title='Музыка']"),"muusic page link");
-	/**
-	 * Локаторы для теста JobsFindAndSort
-	 */
 	private Button btJobs = new Button(By.xpath("//a[@title='Работа']"),"Go to jobs");
+	private LinkText ltBlogs = new LinkText(By.xpath("//a[@title='Блоги']"), "blog link");
+	private LinkText ltAuto = new LinkText(By.xpath("//a[@title='Авто']"), "blog link");
 	/**
 	 * Локаторы для тестов BlogFindAndGoTo & FindRoadRules
 	 */
 	private LinkText ltAllResources = new LinkText(By.xpath("//a[@href='http://www.tut.by/resource/']"), "all resources link");
 	private Label lbAllResourcesTable = new Label(By.xpath("//ul[@class='b-topbar-more']"), "all resources table");
-	/**
-	 * Локаторы для теста BlogFindAndGoTo
-	 */
-	private LinkText ltBlogs = new LinkText(By.xpath("//a[@title='Блоги']"), "blog link");
-	/**
-	 * Локаторы для теста FindRoadRules
-	 */
-	private LinkText ltAuto = new LinkText(By.xpath("//a[@title='Авто']"), "blog link");
-	/**
+     /**
 	 * Локаторы для теста LanguageChange
 	 */
 	private LinkText ltSwitchToBelarus = new LinkText(By.id("lCSwitch_bel"), "language link");
@@ -68,10 +52,11 @@ public class MainPageForm extends BaseForm{
 	/**
 	 * Методы для теста Login
 	 */
-	public void Login(String username, String password) {
+	
+		public void Login(String userName, String passWord) {
 		btEnter1.click();
-		txuserName.type(username);
-		txpassword.type(password);
+		txuserName.type(userName);
+		txpassword.type(passWord);
 		btEnter2.click();
 		btLoginClose.click();
 		doAssert(lbLoginAssert.isPresent(), "Login success", "Login fail");
@@ -81,37 +66,7 @@ public class MainPageForm extends BaseForm{
 		btLogout.click();
 		doAssert(btEnter1.isPresent(), "Logout success", "Logout fail");
 		}
-
-	/**
-	 * Метод для теста AfishaFindEvent
-	 */
-	public void GoToAfisha () {
-		ltAfisha.click();
-		}
-	/**
-	 * Метод для теста WeatherChangeCity
-	 */
-	public void GoToWeather() {
-		ltWeather.click();
-		}	
-	/**
-	 * Метод для теста CatalogAddComment
-	 */
-	public void GoToCatalog() {
-		ltCatalog.click();
-		}
-	/**
-	 * Метод для теста MusicFindGroup
-	 */
-	public void GoToMusic() {
-		ltMusic.click();
-		}
-	/**
-	 * Метод для теста JobsFindAndSort
-	 */
-	public void GoToJobs() {
-		btJobs.click();
-		}
+	
 	/**
 	 * Метод для тестов BlogFindAndGoTo & FindRoadRules
 	 */
@@ -119,19 +74,7 @@ public class MainPageForm extends BaseForm{
 		ltAllResources.click();
 		doAssert(lbAllResourcesTable.isPresent(),"Field 'All Resources' appeared" ,"Field 'All Resources' didn't appear");
 		}
-	/**
-	 * Метод для теста BlogFindAndGoTo
-	 */
-	public void GoToBlog() {
-		ltBlogs.click();
-		}
-	/**
-	 * Метод для теста FindRoadRules
-	 */
-	public void GoToAuto() {
-	ltAuto.click();
-	}
-	/**
+		/**
 	 * Метод для теста LanguageChange
 	 */
 	public void Changelanguage() {
@@ -145,8 +88,35 @@ public class MainPageForm extends BaseForm{
 		doAssert(lbSearchComplete.isPresent(), "Search success", "Search fail");
 	}
 		
+	/**
+	 * Navigate
+	 */
+	public void GoToAfisha() {
+		ltAfisha.click();
+	}
+	public void GoToWeather() {
+		ltWeather.click();
+	}
+	public void GoToCatalog() {
+		ltCatalog.click();
+	}
+	public void GoToMusic() {
+		ltMusic.click();
+	}
+	public void GoToJobs() {
+		btJobs.click();
+	}
+	public void GoToBlogs() {
+		ltBlogs.click();
+	}
+	public void GoToAuto() {
+		ltAuto.click();
+	}
+	
+	
+	
 	
 	public MainPageForm() {
-		super(formlocator, "My form");
+		super(formlocator, "Main form");
 		}	
 }

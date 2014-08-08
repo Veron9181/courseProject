@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<suite name="Course project" verbose="1">
 
+	<suite name="Course project" verbose="1">
+	
 	<test name="Automated Test" preserve-order="true">
+		<parameter name="site" value="tut.by" />
+		<parameter name="username" value="courseProject" />
+  		<parameter name="password" value="q1w2e3r4t5y6" />
+  		<parameter name="searchAfisha" value="Three days grace" />
+  		<parameter name="searchBlog" value="Творчество" />
+  		<parameter name="carwashName" value="Олекскар" />
+  		<parameter name="carwashComment" value="Хорошая автомойка! Советую." />
+  		<parameter name="job" value="Junior developer" />
+  		<parameter name="jobSpecialization" value="Информационные технологии, интернет, телеком" />
+  		<parameter name="jobSalary" value="1000000" />
+  		<parameter name="languageSearch" value="інфармацыйныя тэхналогіі" />
+  		<parameter name="musicSearch" value="ДДТ" />
+  		
 		<classes>
-			<class name="demo.test.DemoTest" />
+			<class name="test.CataloAddCommentTest" />
+			<class name="test.LoginTest" />
+			<class name="test.AfishaFindEventTest" />
+			<class name="test.BlogFindAndGoToTest" />
+			<class name="test.FindRoadRulesTest" />
+			<class name="test.JobAdvancedSearchTest" />
+			<class name="test.JobFindAndSortTest" />
+			<class name="test.LanguageChangeTest" />
+			<class name="test.MusicFindGroupTest" />
+			<class name="test.WeatherChangeCityTest" />
+									
 		</classes>
+						
 	</test>
+	
 </suite>

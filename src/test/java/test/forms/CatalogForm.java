@@ -10,7 +10,7 @@ import webdriver.elements.TextBox;
 
 public class CatalogForm extends BaseForm{
 
-	private static By formlocator = By.xpath("//span[contains(text(), 'КАТАЛОГ')]]");
+	private static By formlocator = By.xpath("//span[contains(text(), 'КАТАЛОГ')]");
 	/**
 	 * Локаторы для теста CatalogAddComment
 	 */
@@ -43,6 +43,6 @@ public class CatalogForm extends BaseForm{
 	}
 	
 	public CatalogForm() {
-		super(formlocator, "My form");
+		super(formlocator, "Catalog form");
 	}
 }

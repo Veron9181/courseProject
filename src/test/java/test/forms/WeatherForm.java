@@ -31,6 +31,6 @@ public class WeatherForm extends BaseForm{
 		}
 	
 	public WeatherForm() {
-		super(formlocator, "My form");
+		super(formlocator, "Weather form");
 		}	
 	}
