@@ -242,9 +242,21 @@ public abstract class BaseElement extends BaseEntity {
 		element.click();
 	};
 
-	
-	
 
+	/**
+	 * Check the item.
+	 */
+	public void check(boolean state) {
+		waitForIsElementPresent();
+		 info(String.format(getLoc("loc.setting.value") + " '%1$s'", state));
+		  if (state && !element.isSelected()) {
+		   element.click();
+		  } else if (!state && element.isSelected()) {
+		   element.click();
+		  }
+	 };
+	
+	 
 	/**
 	 * Get the item text (inner text).
 	 * @return Text of element

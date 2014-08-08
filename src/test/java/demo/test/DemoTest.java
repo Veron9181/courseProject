@@ -1,7 +1,7 @@
 package demo.test;
 
+import test.classes.*;
 import webdriver.BaseTest;
-import demo.test.classes.*;
 
 public class DemoTest extends BaseTest {
 		
