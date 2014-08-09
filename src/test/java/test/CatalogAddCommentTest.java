@@ -22,8 +22,8 @@ public class CatalogAddCommentTest extends BaseTest{
 	logger.step(5);
 	catalog.SearchCarwash("Олекскар");
 	logger.step(6);
-	catalog.WriteComment("Вежливый персонал, хорошие цены", "Негативного нет)");
-	logger.step(7);
+//	catalog.WriteComment("Вежливый персонал, хорошие цены", "Негативного нет)");
+//	logger.step(7);
 	login.LoginQuit();
 	}
 	

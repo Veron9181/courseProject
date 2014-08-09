@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="10" passed="10">
+<testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
     <line>
       <![CDATA[browser driver was constructed<br>]]>
@@ -26,7 +26,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 1328msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1304msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'Go to jobs' :: Clicking<br>]]>
@@ -35,7 +35,7 @@
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Job form' appears in 646msec<br>]]>
+      <![CDATA[Form 'Job form' appears in 277msec<br>]]>
     </line>
     <line>
       <![CDATA[Jobs Page is downloaded<br>]]>
@@ -80,7 +80,7 @@
       <![CDATA[killing processes<br>]]>
     </line>
     <line>
-      <![CDATA[“á¯¥è­®: à®æ¥áá "firefox.exe", á ¨¤¥­â¨ä¨ª â®à®¬ 7540, ¡ë« § ¢¥àè¥­.<br>]]>
+      <![CDATA[“á¯¥è­®: à®æ¥áá "firefox.exe", á ¨¤¥­â¨ä¨ª â®à®¬ 4756, ¡ë« § ¢¥àè¥­.<br>]]>
     </line>
     <line>
       <![CDATA[browser driver was constructed<br>]]>
@@ -107,7 +107,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 1306msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1256msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'muusic page link' :: Clicking<br>]]>
@@ -116,7 +116,7 @@
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Music form' appears in 75msec<br>]]>
+      <![CDATA[Form 'Music form' appears in 382msec<br>]]>
     </line>
     <line>
       <![CDATA[Page downloaded<br>]]>
@@ -185,7 +185,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 1376msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1302msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'language link' :: Clicking<br>]]>
@@ -233,6 +233,84 @@
       <![CDATA[Browser 'firefox' ready...<br>]]>
     </line>
     <line>
+      <![CDATA[------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'test.ShopsSearchTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Main form' appears in 1602msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'blog link' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Shops form' appears in 90msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'fan link' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'firm checkbox' :: Setting value 'true'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'price textbox' :: Typing '500000'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'power link' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'power textbox' :: Typing '80'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'search button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[search success<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[*****************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'test.ShopsSearchTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[*****************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
       <![CDATA[----------------------------------------------------------------------------------<br>]]>
     </line>
     <line>
@@ -251,7 +329,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 1254msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1212msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'afisha link' :: Clicking<br>]]>
@@ -260,7 +338,7 @@
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Afisha form' appears in 526msec<br>]]>
+      <![CDATA[Form 'Afisha form' appears in 507msec<br>]]>
     </line>
     <line>
       <![CDATA[Afisha page is downloaded<br>]]>
@@ -323,7 +401,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 1147msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1371msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'enter button' :: Clicking<br>]]>
@@ -398,7 +476,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 1217msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1380msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'all resources link' :: Clicking<br>]]>
@@ -416,7 +494,7 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Auto form' appears in 476msec<br>]]>
+      <![CDATA[Form 'Auto form' appears in 516msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'road rules' :: Clicking<br>]]>
@@ -473,7 +551,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 1382msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1279msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'Weather page link' :: Clicking<br>]]>
@@ -482,7 +560,7 @@
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Weather form' appears in 57msec<br>]]>
+      <![CDATA[Form 'Weather form' appears in 76msec<br>]]>
     </line>
     <line>
       <![CDATA[Weather page is downloaded<br>]]>
@@ -545,7 +623,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 1225msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1387msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'Go to jobs' :: Clicking<br>]]>
@@ -554,7 +632,7 @@
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Job form' appears in 236msec<br>]]>
+      <![CDATA[Form 'Job form' appears in 210msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'advanced search link' :: Clicking<br>]]>
@@ -563,7 +641,7 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'JobAdnancedSearch form' appears in 155msec<br>]]>
+      <![CDATA[Form 'JobAdnancedSearch form' appears in 1248msec<br>]]>
     </line>
     <line>
       <![CDATA[advanced search page is present<br>]]>
@@ -644,7 +722,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 1230msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1437msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'enter button' :: Clicking<br>]]>
@@ -668,7 +746,7 @@
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 48msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 51msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'catalog link' :: Clicking<br>]]>
@@ -677,7 +755,7 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Catalog form' appears in 66msec<br>]]>
+      <![CDATA[Form 'Catalog form' appears in 72msec<br>]]>
     </line>
     <line>
       <![CDATA[Field catalog is present<br>]]>
@@ -696,24 +774,6 @@
     </line>
     <line>
       <![CDATA[--------==[ Step 6 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'Go to carwash link' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Text Field 'comment positive box' :: Typing 'Âåæëèâûé ïåðñîíàë, õîðîøèå öåíû'<br>]]>
-    </line>
-    <line>
-      <![CDATA[Text Field 'comment negative box' :: Typing 'Íåãàòèâíîãî íåò)'<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'add comment button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[Comment added<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 7 ]==--------<br>]]>
     </line>
     <line>
       <![CDATA[Button 'logout button' :: Clicking<br>]]>
@@ -767,7 +827,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 1278msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1480msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'all resources link' :: Clicking<br>]]>
@@ -785,7 +845,7 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Blogs form' appears in 115msec<br>]]>
+      <![CDATA[Form 'Blogs form' appears in 80msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'catalog of blogs link' :: Clicking<br>]]>
@@ -797,7 +857,7 @@
       <![CDATA[--------==[ Step 5 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'ExternalBlog form' appears in 175msec<br>]]>
+      <![CDATA[Form 'ExternalBlog form' appears in 69msec<br>]]>
     </line>
     <line>
       <![CDATA[Blog is downloaded<br>]]>
@@ -836,16 +896,16 @@
       <![CDATA[killing processes<br>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="159272" started-at="2014-08-09T10:30:06Z" finished-at="2014-08-09T10:32:45Z">
+  <suite name="Default suite" duration-ms="177751" started-at="2014-08-09T11:48:50Z" finished-at="2014-08-09T11:51:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="159272" started-at="2014-08-09T10:30:06Z" finished-at="2014-08-09T10:32:45Z">
+    <test name="Default test" duration-ms="177751" started-at="2014-08-09T11:48:50Z" finished-at="2014-08-09T11:51:48Z">
       <class name="test.WeatherChangeCityTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.WeatherChangeCityTest@2ed2d9cb]" name="before" is-config="true" duration-ms="3816" started-at="2014-08-09T13:31:24Z" finished-at="2014-08-09T13:31:27Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.WeatherChangeCityTest@6fd83fc1]" name="before" is-config="true" duration-ms="5165" started-at="2014-08-09T14:50:27Z" finished-at="2014-08-09T14:50:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@46dffdc3]]>
+                <![CDATA[org.testng.TestRunner@6187d1f5]]>
               </value>
             </param>
           </params>
@@ -858,7 +918,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.WeatherChangeCityTest@2ed2d9cb]" name="xTest" duration-ms="4984" started-at="2014-08-09T13:31:27Z" finished-at="2014-08-09T13:31:32Z">
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.WeatherChangeCityTest@6fd83fc1]" name="xTest" duration-ms="5221" started-at="2014-08-09T14:50:32Z" finished-at="2014-08-09T14:50:37Z">
           <reporter-output>
             <line>
               <![CDATA[------------------------------------------------------------------------------------<br>]]>
@@ -879,7 +939,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 1382msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1279msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'Weather page link' :: Clicking<br>]]>
@@ -888,7 +948,7 @@
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Weather form' appears in 57msec<br>]]>
+              <![CDATA[Form 'Weather form' appears in 76msec<br>]]>
             </line>
             <line>
               <![CDATA[Weather page is downloaded<br>]]>
@@ -922,7 +982,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.WeatherChangeCityTest@2ed2d9cb]" name="after" is-config="true" duration-ms="3793" started-at="2014-08-09T13:31:32Z" finished-at="2014-08-09T13:31:36Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.WeatherChangeCityTest@6fd83fc1]" name="after" is-config="true" duration-ms="1675" started-at="2014-08-09T14:50:37Z" finished-at="2014-08-09T14:50:39Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -933,12 +993,12 @@
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.WeatherChangeCityTest -->
-      <class name="test.LoginTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.LoginTest@bae7dc0]" name="before" is-config="true" duration-ms="4107" started-at="2014-08-09T13:30:57Z" finished-at="2014-08-09T13:31:01Z">
+      <class name="test.ShopsSearchTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.ShopsSearchTest@1b2abca6]" name="before" is-config="true" duration-ms="5659" started-at="2014-08-09T14:49:27Z" finished-at="2014-08-09T14:49:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@46dffdc3]]>
+                <![CDATA[org.testng.TestRunner@6187d1f5]]>
               </value>
             </param>
           </params>
@@ -951,7 +1011,106 @@
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.LoginTest@bae7dc0]" name="xTest" duration-ms="7229" started-at="2014-08-09T13:31:01Z" finished-at="2014-08-09T13:31:08Z">
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.ShopsSearchTest@1b2abca6]" name="xTest" duration-ms="8709" started-at="2014-08-09T14:49:32Z" finished-at="2014-08-09T14:49:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'test.ShopsSearchTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main form' appears in 1602msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'blog link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Shops form' appears in 90msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'fan link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'firm checkbox' :: Setting value 'true'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'price textbox' :: Typing '500000'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'power link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'power textbox' :: Typing '80'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'search button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[search success<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[*****************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.ShopsSearchTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[*****************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.ShopsSearchTest@1b2abca6]" name="after" is-config="true" duration-ms="1965" started-at="2014-08-09T14:49:41Z" finished-at="2014-08-09T14:49:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.ShopsSearchTest -->
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.LoginTest@618425b5]" name="before" is-config="true" duration-ms="5730" started-at="2014-08-09T14:49:54Z" finished-at="2014-08-09T14:50:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6187d1f5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.LoginTest@618425b5]" name="xTest" duration-ms="7682" started-at="2014-08-09T14:50:00Z" finished-at="2014-08-09T14:50:08Z">
           <reporter-output>
             <line>
               <![CDATA[------------------------------------------------------------------------<br>]]>
@@ -972,7 +1131,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 1147msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1371msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'enter button' :: Clicking<br>]]>
@@ -1018,7 +1177,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.LoginTest@bae7dc0]" name="after" is-config="true" duration-ms="2629" started-at="2014-08-09T13:31:08Z" finished-at="2014-08-09T13:31:11Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.LoginTest@618425b5]" name="after" is-config="true" duration-ms="2536" started-at="2014-08-09T14:50:08Z" finished-at="2014-08-09T14:50:10Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1029,12 +1188,12 @@
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.LoginTest -->
-      <class name="test.BlogFindAndGoToTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.BlogFindAndGoToTest@e15b7e8]" name="before" is-config="true" duration-ms="3771" started-at="2014-08-09T13:32:12Z" finished-at="2014-08-09T13:32:16Z">
+      <class name="test.FindRoadRulesTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.FindRoadRulesTest@43dac38f]" name="before" is-config="true" duration-ms="5591" started-at="2014-08-09T14:50:10Z" finished-at="2014-08-09T14:50:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@46dffdc3]]>
+                <![CDATA[org.testng.TestRunner@6187d1f5]]>
               </value>
             </param>
           </params>
@@ -1047,7 +1206,199 @@
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.BlogFindAndGoToTest@e15b7e8]" name="xTest" duration-ms="26636" started-at="2014-08-09T13:32:16Z" finished-at="2014-08-09T13:32:43Z">
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.FindRoadRulesTest@43dac38f]" name="xTest" duration-ms="9443" started-at="2014-08-09T14:50:16Z" finished-at="2014-08-09T14:50:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'test.FindRoadRulesTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main form' appears in 1380msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'all resources link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Field 'All Resources' appeared<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'blog link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Auto form' appears in 516msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'road rules' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'chapter button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Chapter found<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[*******************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.FindRoadRulesTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[*******************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.FindRoadRulesTest@43dac38f]" name="after" is-config="true" duration-ms="1333" started-at="2014-08-09T14:50:25Z" finished-at="2014-08-09T14:50:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.FindRoadRulesTest -->
+      <class name="test.JobFindAndSortTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.JobFindAndSortTest@bae7dc0]" name="before" is-config="true" duration-ms="63" started-at="2014-08-09T14:48:50Z" finished-at="2014-08-09T14:48:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6187d1f5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.JobFindAndSortTest@bae7dc0]" name="xTest" duration-ms="7911" started-at="2014-08-09T14:48:50Z" finished-at="2014-08-09T14:48:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'test.JobFindAndSortTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main form' appears in 1304msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Go to jobs' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Job form' appears in 277msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Jobs Page is downloaded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'find job  text box' :: Typing 'Junior developer'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Programing check box' :: Setting value 'true'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'salary text box' :: Typing '1000000'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Find job button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Search success<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.JobFindAndSortTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.JobFindAndSortTest@bae7dc0]" name="after" is-config="true" duration-ms="3184" started-at="2014-08-09T14:48:58Z" finished-at="2014-08-09T14:49:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+            <line>
+              <![CDATA[“á¯¥è­®: à®æ¥áá "firefox.exe", á ¨¤¥­â¨ä¨ª â®à®¬ 4756, ¡ë« § ¢¥àè¥­.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.JobFindAndSortTest -->
+      <class name="test.BlogFindAndGoToTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.BlogFindAndGoToTest@e15b7e8]" name="before" is-config="true" duration-ms="4390" started-at="2014-08-09T14:51:15Z" finished-at="2014-08-09T14:51:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6187d1f5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.BlogFindAndGoToTest@e15b7e8]" name="xTest" duration-ms="26982" started-at="2014-08-09T14:51:19Z" finished-at="2014-08-09T14:51:46Z">
           <reporter-output>
             <line>
               <![CDATA[----------------------------------------------------------------------------------<br>]]>
@@ -1068,7 +1419,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 1278msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1480msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'all resources link' :: Clicking<br>]]>
@@ -1086,7 +1437,7 @@
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Blogs form' appears in 115msec<br>]]>
+              <![CDATA[Form 'Blogs form' appears in 80msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'catalog of blogs link' :: Clicking<br>]]>
@@ -1098,7 +1449,7 @@
               <![CDATA[--------==[ Step 5 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'ExternalBlog form' appears in 175msec<br>]]>
+              <![CDATA[Form 'ExternalBlog form' appears in 69msec<br>]]>
             </line>
             <line>
               <![CDATA[Blog is downloaded<br>]]>
@@ -1132,7 +1483,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.BlogFindAndGoToTest@e15b7e8]" name="after" is-config="true" duration-ms="2479" started-at="2014-08-09T13:32:43Z" finished-at="2014-08-09T13:32:45Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.BlogFindAndGoToTest@e15b7e8]" name="after" is-config="true" duration-ms="1666" started-at="2014-08-09T14:51:46Z" finished-at="2014-08-09T14:51:48Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1144,11 +1495,11 @@
         </test-method> <!-- after -->
       </class> <!-- test.BlogFindAndGoToTest -->
       <class name="test.JobAdvancedSearchTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.JobAdvancedSearchTest@52af26ee]" name="before" is-config="true" duration-ms="3809" started-at="2014-08-09T13:31:36Z" finished-at="2014-08-09T13:31:40Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.JobAdvancedSearchTest@4f2b503c]" name="before" is-config="true" duration-ms="4526" started-at="2014-08-09T14:50:39Z" finished-at="2014-08-09T14:50:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@46dffdc3]]>
+                <![CDATA[org.testng.TestRunner@6187d1f5]]>
               </value>
             </param>
           </params>
@@ -1161,7 +1512,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.JobAdvancedSearchTest@52af26ee]" name="xTest" duration-ms="9020" started-at="2014-08-09T13:31:40Z" finished-at="2014-08-09T13:31:49Z">
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.JobAdvancedSearchTest@4f2b503c]" name="xTest" duration-ms="9581" started-at="2014-08-09T14:50:43Z" finished-at="2014-08-09T14:50:53Z">
           <reporter-output>
             <line>
               <![CDATA[------------------------------------------------------------------------------------<br>]]>
@@ -1182,7 +1533,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 1225msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1387msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'Go to jobs' :: Clicking<br>]]>
@@ -1191,7 +1542,7 @@
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Job form' appears in 236msec<br>]]>
+              <![CDATA[Form 'Job form' appears in 210msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'advanced search link' :: Clicking<br>]]>
@@ -1200,7 +1551,7 @@
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'JobAdnancedSearch form' appears in 155msec<br>]]>
+              <![CDATA[Form 'JobAdnancedSearch form' appears in 1248msec<br>]]>
             </line>
             <line>
               <![CDATA[advanced search page is present<br>]]>
@@ -1252,7 +1603,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.JobAdvancedSearchTest@52af26ee]" name="after" is-config="true" duration-ms="1856" started-at="2014-08-09T13:31:49Z" finished-at="2014-08-09T13:31:51Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.JobAdvancedSearchTest@4f2b503c]" name="after" is-config="true" duration-ms="1339" started-at="2014-08-09T14:50:53Z" finished-at="2014-08-09T14:50:54Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1263,204 +1614,12 @@
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.JobAdvancedSearchTest -->
-      <class name="test.FindRoadRulesTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.FindRoadRulesTest@18d87d80]" name="before" is-config="true" duration-ms="4395" started-at="2014-08-09T13:31:11Z" finished-at="2014-08-09T13:31:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@46dffdc3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[browser driver was constructed<br>]]>
-            </line>
-            <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.FindRoadRulesTest@18d87d80]" name="xTest" duration-ms="7312" started-at="2014-08-09T13:31:15Z" finished-at="2014-08-09T13:31:22Z">
-          <reporter-output>
-            <line>
-              <![CDATA[--------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[=====================  Test case: 'test.FindRoadRulesTest' =====================<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Main form' appears in 1217msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'all resources link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Field 'All Resources' appeared<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'blog link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Auto form' appears in 476msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'road rules' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'chapter button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Chapter found<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-            <line>
-              <![CDATA[*******************************************************<br>]]>
-            </line>
-            <line>
-              <![CDATA[***** Test case: 'test.FindRoadRulesTest' Passed! *****<br>]]>
-            </line>
-            <line>
-              <![CDATA[*******************************************************<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.FindRoadRulesTest@18d87d80]" name="after" is-config="true" duration-ms="1329" started-at="2014-08-09T13:31:22Z" finished-at="2014-08-09T13:31:24Z">
-          <reporter-output>
-            <line>
-              <![CDATA[driver.quit...<br>]]>
-            </line>
-            <line>
-              <![CDATA[killing processes<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- test.FindRoadRulesTest -->
-      <class name="test.JobFindAndSortTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.JobFindAndSortTest@4f2b503c]" name="before" is-config="true" duration-ms="66" started-at="2014-08-09T13:30:06Z" finished-at="2014-08-09T13:30:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@46dffdc3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.JobFindAndSortTest@4f2b503c]" name="xTest" duration-ms="8830" started-at="2014-08-09T13:30:06Z" finished-at="2014-08-09T13:30:15Z">
-          <reporter-output>
-            <line>
-              <![CDATA[---------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[=====================  Test case: 'test.JobFindAndSortTest' =====================<br>]]>
-            </line>
-            <line>
-              <![CDATA[---------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Main form' appears in 1328msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Go to jobs' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Job form' appears in 646msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Jobs Page is downloaded<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'find job  text box' :: Typing 'Junior developer'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Programing check box' :: Setting value 'true'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'salary text box' :: Typing '1000000'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Find job button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Search success<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-            <line>
-              <![CDATA[********************************************************<br>]]>
-            </line>
-            <line>
-              <![CDATA[***** Test case: 'test.JobFindAndSortTest' Passed! *****<br>]]>
-            </line>
-            <line>
-              <![CDATA[********************************************************<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.JobFindAndSortTest@4f2b503c]" name="after" is-config="true" duration-ms="2130" started-at="2014-08-09T13:30:15Z" finished-at="2014-08-09T13:30:17Z">
-          <reporter-output>
-            <line>
-              <![CDATA[driver.quit...<br>]]>
-            </line>
-            <line>
-              <![CDATA[killing processes<br>]]>
-            </line>
-            <line>
-              <![CDATA[“á¯¥è­®: à®æ¥áá "firefox.exe", á ¨¤¥­â¨ä¨ª â®à®¬ 7540, ¡ë« § ¢¥àè¥­.<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- test.JobFindAndSortTest -->
       <class name="test.AfishaFindEventTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.AfishaFindEventTest@209da20d]" name="before" is-config="true" duration-ms="5627" started-at="2014-08-09T13:30:43Z" finished-at="2014-08-09T13:30:49Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.AfishaFindEventTest@209da20d]" name="before" is-config="true" duration-ms="3930" started-at="2014-08-09T14:49:43Z" finished-at="2014-08-09T14:49:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@46dffdc3]]>
+                <![CDATA[org.testng.TestRunner@6187d1f5]]>
               </value>
             </param>
           </params>
@@ -1473,7 +1632,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.AfishaFindEventTest@209da20d]" name="xTest" duration-ms="6275" started-at="2014-08-09T13:30:49Z" finished-at="2014-08-09T13:30:55Z">
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.AfishaFindEventTest@209da20d]" name="xTest" duration-ms="5863" started-at="2014-08-09T14:49:47Z" finished-at="2014-08-09T14:49:53Z">
           <reporter-output>
             <line>
               <![CDATA[----------------------------------------------------------------------------------<br>]]>
@@ -1494,7 +1653,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 1254msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1212msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'afisha link' :: Clicking<br>]]>
@@ -1503,7 +1662,7 @@
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Afisha form' appears in 526msec<br>]]>
+              <![CDATA[Form 'Afisha form' appears in 507msec<br>]]>
             </line>
             <line>
               <![CDATA[Afisha page is downloaded<br>]]>
@@ -1537,7 +1696,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.AfishaFindEventTest@209da20d]" name="after" is-config="true" duration-ms="1374" started-at="2014-08-09T13:30:55Z" finished-at="2014-08-09T13:30:57Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.AfishaFindEventTest@209da20d]" name="after" is-config="true" duration-ms="1752" started-at="2014-08-09T14:49:53Z" finished-at="2014-08-09T14:49:54Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1548,99 +1707,12 @@
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.AfishaFindEventTest -->
-      <class name="test.LanguageChangeTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.LanguageChangeTest@6392827e]" name="before" is-config="true" duration-ms="3904" started-at="2014-08-09T13:30:32Z" finished-at="2014-08-09T13:30:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@46dffdc3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[browser driver was constructed<br>]]>
-            </line>
-            <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.LanguageChangeTest@6392827e]" name="xTest" duration-ms="5723" started-at="2014-08-09T13:30:36Z" finished-at="2014-08-09T13:30:42Z">
-          <reporter-output>
-            <line>
-              <![CDATA[---------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[=====================  Test case: 'test.LanguageChangeTest' =====================<br>]]>
-            </line>
-            <line>
-              <![CDATA[---------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Main form' appears in 1376msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'language link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Language is changed<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'search field' :: Typing '³íôàðìàöûéíûÿ òýõíàëîã³³'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'find button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Search success<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-            <line>
-              <![CDATA[********************************************************<br>]]>
-            </line>
-            <line>
-              <![CDATA[***** Test case: 'test.LanguageChangeTest' Passed! *****<br>]]>
-            </line>
-            <line>
-              <![CDATA[********************************************************<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.LanguageChangeTest@6392827e]" name="after" is-config="true" duration-ms="1408" started-at="2014-08-09T13:30:42Z" finished-at="2014-08-09T13:30:43Z">
-          <reporter-output>
-            <line>
-              <![CDATA[driver.quit...<br>]]>
-            </line>
-            <line>
-              <![CDATA[killing processes<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- test.LanguageChangeTest -->
       <class name="test.MusicFindGroupTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.MusicFindGroupTest@1b2abca6]" name="before" is-config="true" duration-ms="3840" started-at="2014-08-09T13:30:17Z" finished-at="2014-08-09T13:30:21Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.MusicFindGroupTest@2ed2d9cb]" name="before" is-config="true" duration-ms="3994" started-at="2014-08-09T14:49:01Z" finished-at="2014-08-09T14:49:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@46dffdc3]]>
+                <![CDATA[org.testng.TestRunner@6187d1f5]]>
               </value>
             </param>
           </params>
@@ -1653,7 +1725,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.MusicFindGroupTest@1b2abca6]" name="xTest" duration-ms="9901" started-at="2014-08-09T13:30:21Z" finished-at="2014-08-09T13:30:31Z">
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.MusicFindGroupTest@2ed2d9cb]" name="xTest" duration-ms="6591" started-at="2014-08-09T14:49:05Z" finished-at="2014-08-09T14:49:12Z">
           <reporter-output>
             <line>
               <![CDATA[---------------------------------------------------------------------------------<br>]]>
@@ -1674,7 +1746,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 1306msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1256msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'muusic page link' :: Clicking<br>]]>
@@ -1683,7 +1755,7 @@
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Music form' appears in 75msec<br>]]>
+              <![CDATA[Form 'Music form' appears in 382msec<br>]]>
             </line>
             <line>
               <![CDATA[Page downloaded<br>]]>
@@ -1723,7 +1795,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.MusicFindGroupTest@1b2abca6]" name="after" is-config="true" duration-ms="1541" started-at="2014-08-09T13:30:31Z" finished-at="2014-08-09T13:30:32Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.MusicFindGroupTest@2ed2d9cb]" name="after" is-config="true" duration-ms="2292" started-at="2014-08-09T14:49:12Z" finished-at="2014-08-09T14:49:14Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1734,12 +1806,12 @@
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.MusicFindGroupTest -->
-      <class name="test.CatalogAddCommentTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.CatalogAddCommentTest@6fd83fc1]" name="before" is-config="true" duration-ms="3828" started-at="2014-08-09T13:31:51Z" finished-at="2014-08-09T13:31:55Z">
+      <class name="test.LanguageChangeTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.LanguageChangeTest@d5b810e]" name="before" is-config="true" duration-ms="5138" started-at="2014-08-09T14:49:14Z" finished-at="2014-08-09T14:49:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@46dffdc3]]>
+                <![CDATA[org.testng.TestRunner@6187d1f5]]>
               </value>
             </param>
           </params>
@@ -1752,7 +1824,94 @@
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.CatalogAddCommentTest@6fd83fc1]" name="xTest" duration-ms="16202" started-at="2014-08-09T13:31:55Z" finished-at="2014-08-09T13:32:11Z">
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.LanguageChangeTest@d5b810e]" name="xTest" duration-ms="5742" started-at="2014-08-09T14:49:19Z" finished-at="2014-08-09T14:49:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'test.LanguageChangeTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main form' appears in 1302msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'language link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Language is changed<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'search field' :: Typing '³íôàðìàöûéíûÿ òýõíàëîã³³'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'find button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Search success<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.LanguageChangeTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.LanguageChangeTest@d5b810e]" name="after" is-config="true" duration-ms="1511" started-at="2014-08-09T14:49:25Z" finished-at="2014-08-09T14:49:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.LanguageChangeTest -->
+      <class name="test.CatalogAddCommentTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.CatalogAddCommentTest@6392827e]" name="before" is-config="true" duration-ms="5709" started-at="2014-08-09T14:50:54Z" finished-at="2014-08-09T14:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6187d1f5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.CatalogAddCommentTest@6392827e]" name="xTest" duration-ms="13495" started-at="2014-08-09T14:51:00Z" finished-at="2014-08-09T14:51:14Z">
           <reporter-output>
             <line>
               <![CDATA[------------------------------------------------------------------------------------<br>]]>
@@ -1773,7 +1932,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 1230msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1437msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'enter button' :: Clicking<br>]]>
@@ -1797,7 +1956,7 @@
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 48msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 51msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'catalog link' :: Clicking<br>]]>
@@ -1806,7 +1965,7 @@
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Catalog form' appears in 66msec<br>]]>
+              <![CDATA[Form 'Catalog form' appears in 72msec<br>]]>
             </line>
             <line>
               <![CDATA[Field catalog is present<br>]]>
@@ -1825,24 +1984,6 @@
             </line>
             <line>
               <![CDATA[--------==[ Step 6 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Go to carwash link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'comment positive box' :: Typing 'Âåæëèâûé ïåðñîíàë, õîðîøèå öåíû'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'comment negative box' :: Typing 'Íåãàòèâíîãî íåò)'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'add comment button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[Comment added<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 7 ]==--------<br>]]>
             </line>
             <line>
               <![CDATA[Button 'logout button' :: Clicking<br>]]>
@@ -1867,7 +2008,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.CatalogAddCommentTest@6fd83fc1]" name="after" is-config="true" duration-ms="1422" started-at="2014-08-09T13:32:11Z" finished-at="2014-08-09T13:32:12Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.CatalogAddCommentTest@6392827e]" name="after" is-config="true" duration-ms="1355" started-at="2014-08-09T14:51:14Z" finished-at="2014-08-09T14:51:15Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>

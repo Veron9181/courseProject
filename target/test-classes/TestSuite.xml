@@ -5,6 +5,8 @@
 	<test name="Automated Test" preserve-order="true">
 		  		
 		<classes>
+		
+			<class name="test.ShopsSearchTest" />
 			<class name="test.CatalogAddCommentTest" />
 			<class name="test.LoginTest" />
 			<class name="test.AfishaFindEventTest" />
@@ -15,6 +17,7 @@
 			<class name="test.LanguageChangeTest" />
 			<class name="test.MusicFindGroupTest" />
 			<class name="test.WeatherChangeCityTest" />	
+						
 		</classes>
 						
 	</test>

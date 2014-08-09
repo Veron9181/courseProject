@@ -33,9 +33,12 @@ public class MainPageForm extends BaseForm{
 	private Button btJobs = new Button(By.xpath("//a[@title='Работа']"),"Go to jobs");
 	private LinkText ltBlogs = new LinkText(By.xpath("//a[@title='Блоги']"), "blog link");
 	private LinkText ltAuto = new LinkText(By.xpath("//a[@title='Авто']"), "blog link");
+	private LinkText ltShops = new LinkText(By.xpath("//*[@title='Магазины']"), "blog link");
+		
 	/**
 	 * Локаторы для тестов BlogFindAndGoTo & FindRoadRules
 	 */
+	
 	private LinkText ltAllResources = new LinkText(By.xpath("//a[@href='http://www.tut.by/resource/']"), "all resources link");
 	private Label lbAllResourcesTable = new Label(By.xpath("//ul[@class='b-topbar-more']"), "all resources table");
      /**
@@ -112,7 +115,9 @@ public class MainPageForm extends BaseForm{
 	public void GoToAuto() {
 		ltAuto.click();
 	}
-	
+	public void GoToShops() {
+		ltShops.click();
+	}
 	
 	
 	
