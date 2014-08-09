@@ -58,7 +58,7 @@ public class MainPageForm extends BaseForm{
 		txuserName.type(userName);
 		txpassword.type(passWord);
 		btEnter2.click();
-		btLoginClose.click();
+		if (btLoginClose.isPresent()) btLoginClose.click();
 		doAssert(lbLoginAssert.isPresent(), "Login success", "Login fail");
 		}
 	

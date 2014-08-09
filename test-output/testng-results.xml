@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="16" total="20" passed="4">
+<testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
     <line>
       <![CDATA[browser driver was constructed<br>]]>
@@ -26,7 +26,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 17402msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1328msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'Go to jobs' :: Clicking<br>]]>
@@ -35,7 +35,7 @@
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Job form' appears in 192msec<br>]]>
+      <![CDATA[Form 'Job form' appears in 646msec<br>]]>
     </line>
     <line>
       <![CDATA[Jobs Page is downloaded<br>]]>
@@ -80,6 +80,9 @@
       <![CDATA[killing processes<br>]]>
     </line>
     <line>
+      <![CDATA[“á¯¥è­®: à®æ¥áá "firefox.exe", á ¨¤¥­â¨ä¨ª â®à®¬ 7540, ¡ë« § ¢¥àè¥­.<br>]]>
+    </line>
+    <line>
       <![CDATA[browser driver was constructed<br>]]>
     </line>
     <line>
@@ -104,7 +107,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 14616msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1306msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'muusic page link' :: Clicking<br>]]>
@@ -113,7 +116,7 @@
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Music form' appears in 72msec<br>]]>
+      <![CDATA[Form 'Music form' appears in 75msec<br>]]>
     </line>
     <line>
       <![CDATA[Page downloaded<br>]]>
@@ -125,13 +128,34 @@
       <![CDATA[Button 'Music search link' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="skipped"></div><br>]]>
+      <![CDATA[Text Field 'find group text box' :: Typing 'ÄÄÒ'<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
+      <![CDATA[Button 'find button' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="skipped"></div><br>]]>
+      <![CDATA[Button 'click group link' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Group page is downloaded<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'test.MusicFindGroupTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
     </line>
     <line>
       <![CDATA[killing processes<br>]]>
@@ -161,7 +185,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 14501msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1376msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'language link' :: Clicking<br>]]>
@@ -227,7 +251,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 13510msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1254msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'afisha link' :: Clicking<br>]]>
@@ -236,7 +260,7 @@
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Afisha form' appears in 794msec<br>]]>
+      <![CDATA[Form 'Afisha form' appears in 526msec<br>]]>
     </line>
     <line>
       <![CDATA[Afisha page is downloaded<br>]]>
@@ -299,25 +323,49 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 13887msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1147msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'enter button' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[Text Field 'user name' :: Typing 'null'<br>]]>
+      <![CDATA[Text Field 'user name' :: Typing 'courseProject'<br>]]>
     </line>
     <line>
-      <![CDATA[Text Field 'password' :: Typing 'null'<br>]]>
+      <![CDATA[Text Field 'password' :: Typing 'q1w2e3r4t5y6'<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="skipped"></div><br>]]>
+      <![CDATA[Button 'enter button 2' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
+      <![CDATA[Button 'close button' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="skipped"></div><br>]]>
+      <![CDATA[Login success<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'logout button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Logout success<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'test.LoginTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
     </line>
     <line>
       <![CDATA[driver.quit...<br>]]>
@@ -350,7 +398,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 23219msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1217msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'all resources link' :: Clicking<br>]]>
@@ -368,16 +416,34 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="failedConfig">Form 'Auto form' doesn't appear</div><br>]]>
+      <![CDATA[Form 'Auto form' appears in 476msec<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="skipped"></div><br>]]>
+      <![CDATA[Button 'road rules' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
+      <![CDATA[Button 'chapter button' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="skipped"></div><br>]]>
+      <![CDATA[Chapter found<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[*******************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'test.FindRoadRulesTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[*******************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
     </line>
     <line>
       <![CDATA[killing processes<br>]]>
@@ -407,7 +473,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Main form' appears in 23821msec<br>]]>
+      <![CDATA[Form 'Main form' appears in 1382msec<br>]]>
     </line>
     <line>
       <![CDATA[Button 'Weather page link' :: Clicking<br>]]>
@@ -416,7 +482,7 @@
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Weather form' appears in 80msec<br>]]>
+      <![CDATA[Form 'Weather form' appears in 57msec<br>]]>
     </line>
     <line>
       <![CDATA[Weather page is downloaded<br>]]>
@@ -476,13 +542,79 @@
       <![CDATA[--------==[ Step 1 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="skipped"></div><br>]]>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
+      <![CDATA[Form 'Main form' appears in 1225msec<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="skipped"></div><br>]]>
+      <![CDATA[Button 'Go to jobs' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Job form' appears in 236msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'advanced search link' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'JobAdnancedSearch form' appears in 155msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[advanced search page is present<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'search field' :: Typing 'Junior developer'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'specialization libk' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'specialization checkbox' :: Setting value 'true'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'enter button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'experience radio button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'employment checkbox' :: Setting value 'true'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'schedule checkbox' :: Setting value 'true'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'find button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Search success<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'test.JobAdvancedSearchTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
     </line>
     <line>
       <![CDATA[killing processes<br>]]>
@@ -512,16 +644,100 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="failedConfig">Form 'Main form' doesn't appear</div><br>]]>
+      <![CDATA[Form 'Main form' appears in 1230msec<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="skipped"></div><br>]]>
+      <![CDATA[Button 'enter button' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
+      <![CDATA[Text Field 'user name' :: Typing 'courseProject'<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="skipped"></div><br>]]>
+      <![CDATA[Text Field 'password' :: Typing 'q1w2e3r4t5y6'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'enter button 2' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'close button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Login success<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Main form' appears in 48msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'catalog link' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Catalog form' appears in 66msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Field catalog is present<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'search box catalog' :: Typing 'Îëåêñêàð'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Find button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Search succes<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Go to carwash link' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'comment positive box' :: Typing 'Âåæëèâûé ïåðñîíàë, õîðîøèå öåíû'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'comment negative box' :: Typing 'Íåãàòèâíîãî íåò)'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'add comment button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Comment added<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 7 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'logout button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Logout success<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'test.CatalogAddCommentTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
     </line>
     <line>
       <![CDATA[killing processes<br>]]>
@@ -551,31 +767,85 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="failedConfig">Form 'Main form' doesn't appear</div><br>]]>
+      <![CDATA[Form 'Main form' appears in 1278msec<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="skipped"></div><br>]]>
+      <![CDATA[Button 'all resources link' :: Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
+      <![CDATA[Field 'All Resources' appeared<br>]]>
     </line>
     <line>
-      <![CDATA[<div class="skipped"></div><br>]]>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'blog link' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Blogs form' appears in 115msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'catalog of blogs link' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'select blog label' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'ExternalBlog form' appears in 175msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Blog is downloaded<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'search field' :: Typing 'Òâîð÷åñòâî'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'find button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Search success<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[*********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'test.BlogFindAndGoToTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[*********************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
     </line>
     <line>
       <![CDATA[killing processes<br>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="368399" started-at="2014-08-08T22:22:38Z" finished-at="2014-08-08T22:28:46Z">
+  <suite name="Default suite" duration-ms="159272" started-at="2014-08-09T10:30:06Z" finished-at="2014-08-09T10:32:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="368399" started-at="2014-08-08T22:22:38Z" finished-at="2014-08-08T22:28:46Z">
+    <test name="Default test" duration-ms="159272" started-at="2014-08-09T10:30:06Z" finished-at="2014-08-09T10:32:45Z">
       <class name="test.WeatherChangeCityTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.WeatherChangeCityTest@342c38f8]" name="before" is-config="true" duration-ms="3910" started-at="2014-08-09T01:27:17Z" finished-at="2014-08-09T01:27:20Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.WeatherChangeCityTest@2ed2d9cb]" name="before" is-config="true" duration-ms="3816" started-at="2014-08-09T13:31:24Z" finished-at="2014-08-09T13:31:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@64bce832]]>
+                <![CDATA[org.testng.TestRunner@46dffdc3]]>
               </value>
             </param>
           </params>
@@ -588,46 +858,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="readParams(java.lang.String, java.lang.String)[pri:0, instance:test.WeatherChangeCityTest@342c38f8]" name="readParams" duration-ms="0" started-at="2014-08-09T01:27:20Z" finished-at="2014-08-09T01:27:20Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.WeatherChangeCityTest@342c38f8]" name="xTest" duration-ms="48322" started-at="2014-08-09T01:27:20Z" finished-at="2014-08-09T01:28:09Z">
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.WeatherChangeCityTest@2ed2d9cb]" name="xTest" duration-ms="4984" started-at="2014-08-09T13:31:27Z" finished-at="2014-08-09T13:31:32Z">
           <reporter-output>
             <line>
               <![CDATA[------------------------------------------------------------------------------------<br>]]>
@@ -648,7 +879,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 23821msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1382msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'Weather page link' :: Clicking<br>]]>
@@ -657,7 +888,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Weather form' appears in 80msec<br>]]>
+              <![CDATA[Form 'Weather form' appears in 57msec<br>]]>
             </line>
             <line>
               <![CDATA[Weather page is downloaded<br>]]>
@@ -691,7 +922,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.WeatherChangeCityTest@342c38f8]" name="after" is-config="true" duration-ms="1890" started-at="2014-08-09T01:28:09Z" finished-at="2014-08-09T01:28:11Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.WeatherChangeCityTest@2ed2d9cb]" name="after" is-config="true" duration-ms="3793" started-at="2014-08-09T13:31:32Z" finished-at="2014-08-09T13:31:36Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -703,11 +934,11 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
         </test-method> <!-- after -->
       </class> <!-- test.WeatherChangeCityTest -->
       <class name="test.LoginTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.LoginTest@1b2abca6]" name="before" is-config="true" duration-ms="3898" started-at="2014-08-09T01:25:29Z" finished-at="2014-08-09T01:25:33Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.LoginTest@bae7dc0]" name="before" is-config="true" duration-ms="4107" started-at="2014-08-09T13:30:57Z" finished-at="2014-08-09T13:31:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@64bce832]]>
+                <![CDATA[org.testng.TestRunner@46dffdc3]]>
               </value>
             </param>
           </params>
@@ -720,81 +951,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="readParams(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@1b2abca6]" name="readParams" duration-ms="0" started-at="2014-08-09T01:25:33Z" finished-at="2014-08-09T01:25:33Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readParams -->
-        <test-method status="FAIL" signature="xTest()[pri:0, instance:test.LoginTest@1b2abca6]" name="xTest" duration-ms="46480" started-at="2014-08-09T01:25:33Z" finished-at="2014-08-09T01:26:20Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at webdriver.elements.BaseElement.waitForIsElementPresent(BaseElement.java:181)
-	at webdriver.elements.BaseElement.click(BaseElement.java:236)
-	at test.forms.MainPageForm.Login(MainPageForm.java:60)
-	at test.LoginTest.runTest(LoginTest.java:15)
-	at webdriver.BaseTest.xTest(BaseTest.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.LoginTest@bae7dc0]" name="xTest" duration-ms="7229" started-at="2014-08-09T13:31:01Z" finished-at="2014-08-09T13:31:08Z">
           <reporter-output>
             <line>
               <![CDATA[------------------------------------------------------------------------<br>]]>
@@ -815,29 +972,53 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 13887msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1147msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'enter button' :: Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[Text Field 'user name' :: Typing 'null'<br>]]>
+              <![CDATA[Text Field 'user name' :: Typing 'courseProject'<br>]]>
             </line>
             <line>
-              <![CDATA[Text Field 'password' :: Typing 'null'<br>]]>
+              <![CDATA[Text Field 'password' :: Typing 'q1w2e3r4t5y6'<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="skipped"></div><br>]]>
+              <![CDATA[Button 'enter button 2' :: Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
+              <![CDATA[Button 'close button' :: Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="skipped"></div><br>]]>
+              <![CDATA[Login success<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'logout button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Logout success<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.LoginTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.LoginTest@1b2abca6]" name="after" is-config="true" duration-ms="2281" started-at="2014-08-09T01:26:20Z" finished-at="2014-08-09T01:26:22Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.LoginTest@bae7dc0]" name="after" is-config="true" duration-ms="2629" started-at="2014-08-09T13:31:08Z" finished-at="2014-08-09T13:31:11Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -849,11 +1030,11 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
         </test-method> <!-- after -->
       </class> <!-- test.LoginTest -->
       <class name="test.BlogFindAndGoToTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.BlogFindAndGoToTest@2ed2d9cb]" name="before" is-config="true" duration-ms="5591" started-at="2014-08-09T01:28:33Z" finished-at="2014-08-09T01:28:39Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.BlogFindAndGoToTest@e15b7e8]" name="before" is-config="true" duration-ms="3771" started-at="2014-08-09T13:32:12Z" finished-at="2014-08-09T13:32:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@64bce832]]>
+                <![CDATA[org.testng.TestRunner@46dffdc3]]>
               </value>
             </param>
           </params>
@@ -866,89 +1047,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="readParams(java.lang.String, java.lang.String)[pri:0, instance:test.BlogFindAndGoToTest@2ed2d9cb]" name="readParams" duration-ms="0" started-at="2014-08-09T01:28:39Z" finished-at="2014-08-09T01:28:39Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readParams -->
-        <test-method status="FAIL" signature="xTest()[pri:0, instance:test.BlogFindAndGoToTest@2ed2d9cb]" name="xTest" duration-ms="6028" started-at="2014-08-09T01:28:39Z" finished-at="2014-08-09T01:28:45Z">
-          <exception class="junit.framework.AssertionFailedError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError: null
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at webdriver.Logger.fatal(Logger.java:256)
-	at webdriver.BaseEntity.fatal(BaseEntity.java:85)
-	at webdriver.BaseForm.assertIsOpen(BaseForm.java:98)
-	at webdriver.BaseForm.<init>(BaseForm.java:37)
-	at test.forms.MainPageForm.<init>(MainPageForm.java:120)
-	at test.BlogFindAndGoToTest.runTest(BlogFindAndGoToTest.java:15)
-	at webdriver.BaseTest.xTest(BaseTest.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.BlogFindAndGoToTest@e15b7e8]" name="xTest" duration-ms="26636" started-at="2014-08-09T13:32:16Z" finished-at="2014-08-09T13:32:43Z">
           <reporter-output>
             <line>
               <![CDATA[----------------------------------------------------------------------------------<br>]]>
@@ -969,33 +1068,87 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="failedConfig">Form 'Main form' doesn't appear</div><br>]]>
+              <![CDATA[Form 'Main form' appears in 1278msec<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="skipped"></div><br>]]>
+              <![CDATA[Button 'all resources link' :: Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
+              <![CDATA[Field 'All Resources' appeared<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="skipped"></div><br>]]>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'blog link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Blogs form' appears in 115msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'catalog of blogs link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'select blog label' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'ExternalBlog form' appears in 175msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Blog is downloaded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'search field' :: Typing 'Òâîð÷åñòâî'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'find button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Search success<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[*********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.BlogFindAndGoToTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[*********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.BlogFindAndGoToTest@2ed2d9cb]" name="after" is-config="true" duration-ms="1167" started-at="2014-08-09T01:28:45Z" finished-at="2014-08-09T01:28:46Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.BlogFindAndGoToTest@e15b7e8]" name="after" is-config="true" duration-ms="2479" started-at="2014-08-09T13:32:43Z" finished-at="2014-08-09T13:32:45Z">
           <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
             <line>
               <![CDATA[killing processes<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.BlogFindAndGoToTest -->
-      <class name="test.FindRoadRulesTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.FindRoadRulesTest@4fb3ee4e]" name="before" is-config="true" duration-ms="3819" started-at="2014-08-09T01:26:22Z" finished-at="2014-08-09T01:26:26Z">
+      <class name="test.JobAdvancedSearchTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.JobAdvancedSearchTest@52af26ee]" name="before" is-config="true" duration-ms="3809" started-at="2014-08-09T13:31:36Z" finished-at="2014-08-09T13:31:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@64bce832]]>
+                <![CDATA[org.testng.TestRunner@46dffdc3]]>
               </value>
             </param>
           </params>
@@ -1008,89 +1161,127 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="readParams(java.lang.String, java.lang.String)[pri:0, instance:test.FindRoadRulesTest@4fb3ee4e]" name="readParams" duration-ms="0" started-at="2014-08-09T01:26:26Z" finished-at="2014-08-09T01:26:26Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.JobAdvancedSearchTest@52af26ee]" name="xTest" duration-ms="9020" started-at="2014-08-09T13:31:40Z" finished-at="2014-08-09T13:31:49Z">
           <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'test.JobAdvancedSearchTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main form' appears in 1225msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Go to jobs' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Job form' appears in 236msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'advanced search link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'JobAdnancedSearch form' appears in 155msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[advanced search page is present<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'search field' :: Typing 'Junior developer'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'specialization libk' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'specialization checkbox' :: Setting value 'true'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'enter button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'experience radio button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'employment checkbox' :: Setting value 'true'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'schedule checkbox' :: Setting value 'true'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'find button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Search success<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.JobAdvancedSearchTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- readParams -->
-        <test-method status="FAIL" signature="xTest()[pri:0, instance:test.FindRoadRulesTest@4fb3ee4e]" name="xTest" duration-ms="49452" started-at="2014-08-09T01:26:26Z" finished-at="2014-08-09T01:27:15Z">
-          <exception class="junit.framework.AssertionFailedError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError: null
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at webdriver.Logger.fatal(Logger.java:256)
-	at webdriver.BaseEntity.fatal(BaseEntity.java:85)
-	at webdriver.BaseForm.assertIsOpen(BaseForm.java:98)
-	at webdriver.BaseForm.<init>(BaseForm.java:37)
-	at test.forms.AutoForm.<init>(AutoForm.java:30)
-	at test.FindRoadRulesTest.runTest(FindRoadRulesTest.java:19)
-	at webdriver.BaseTest.xTest(BaseTest.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.JobAdvancedSearchTest@52af26ee]" name="after" is-config="true" duration-ms="1856" started-at="2014-08-09T13:31:49Z" finished-at="2014-08-09T13:31:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.JobAdvancedSearchTest -->
+      <class name="test.FindRoadRulesTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.FindRoadRulesTest@18d87d80]" name="before" is-config="true" duration-ms="4395" started-at="2014-08-09T13:31:11Z" finished-at="2014-08-09T13:31:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46dffdc3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.FindRoadRulesTest@18d87d80]" name="xTest" duration-ms="7312" started-at="2014-08-09T13:31:15Z" finished-at="2014-08-09T13:31:22Z">
           <reporter-output>
             <line>
               <![CDATA[--------------------------------------------------------------------------------<br>]]>
@@ -1111,7 +1302,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 23219msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1217msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'all resources link' :: Clicking<br>]]>
@@ -1129,21 +1320,39 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="failedConfig">Form 'Auto form' doesn't appear</div><br>]]>
+              <![CDATA[Form 'Auto form' appears in 476msec<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="skipped"></div><br>]]>
+              <![CDATA[Button 'road rules' :: Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
+              <![CDATA[Button 'chapter button' :: Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="skipped"></div><br>]]>
+              <![CDATA[Chapter found<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[*******************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.FindRoadRulesTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[*******************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.FindRoadRulesTest@4fb3ee4e]" name="after" is-config="true" duration-ms="1201" started-at="2014-08-09T01:27:15Z" finished-at="2014-08-09T01:27:17Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.FindRoadRulesTest@18d87d80]" name="after" is-config="true" duration-ms="1329" started-at="2014-08-09T13:31:22Z" finished-at="2014-08-09T13:31:24Z">
           <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
             <line>
               <![CDATA[killing processes<br>]]>
             </line>
@@ -1151,57 +1360,18 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
         </test-method> <!-- after -->
       </class> <!-- test.FindRoadRulesTest -->
       <class name="test.JobFindAndSortTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.JobFindAndSortTest@e15b7e8]" name="before" is-config="true" duration-ms="59" started-at="2014-08-09T01:22:38Z" finished-at="2014-08-09T01:22:38Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.JobFindAndSortTest@4f2b503c]" name="before" is-config="true" duration-ms="66" started-at="2014-08-09T13:30:06Z" finished-at="2014-08-09T13:30:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@64bce832]]>
+                <![CDATA[org.testng.TestRunner@46dffdc3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="readParams(java.lang.String, java.lang.String)[pri:0, instance:test.JobFindAndSortTest@e15b7e8]" name="readParams" duration-ms="0" started-at="2014-08-09T01:22:38Z" finished-at="2014-08-09T01:22:38Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.JobFindAndSortTest@e15b7e8]" name="xTest" duration-ms="39441" started-at="2014-08-09T01:22:38Z" finished-at="2014-08-09T01:23:17Z">
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.JobFindAndSortTest@4f2b503c]" name="xTest" duration-ms="8830" started-at="2014-08-09T13:30:06Z" finished-at="2014-08-09T13:30:15Z">
           <reporter-output>
             <line>
               <![CDATA[---------------------------------------------------------------------------------<br>]]>
@@ -1222,7 +1392,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 17402msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1328msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'Go to jobs' :: Clicking<br>]]>
@@ -1231,7 +1401,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Job form' appears in 192msec<br>]]>
+              <![CDATA[Form 'Job form' appears in 646msec<br>]]>
             </line>
             <line>
               <![CDATA[Jobs Page is downloaded<br>]]>
@@ -1271,7 +1441,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.JobFindAndSortTest@e15b7e8]" name="after" is-config="true" duration-ms="3091" started-at="2014-08-09T01:23:17Z" finished-at="2014-08-09T01:23:20Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.JobFindAndSortTest@4f2b503c]" name="after" is-config="true" duration-ms="2130" started-at="2014-08-09T13:30:15Z" finished-at="2014-08-09T13:30:17Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1279,177 +1449,18 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
             <line>
               <![CDATA[killing processes<br>]]>
             </line>
+            <line>
+              <![CDATA[“á¯¥è­®: à®æ¥áá "firefox.exe", á ¨¤¥­â¨ä¨ª â®à®¬ 7540, ¡ë« § ¢¥àè¥­.<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.JobFindAndSortTest -->
-      <class name="test.JobAdvancedSearchTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.JobAdvancedSearchTest@bae7dc0]" name="before" is-config="true" duration-ms="3813" started-at="2014-08-09T01:28:11Z" finished-at="2014-08-09T01:28:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@64bce832]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[browser driver was constructed<br>]]>
-            </line>
-            <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="FAIL" signature="readParams(java.lang.String, java.lang.String)[pri:0, instance:test.JobAdvancedSearchTest@bae7dc0]" name="readParams" duration-ms="0" started-at="2014-08-09T01:28:14Z" finished-at="2014-08-09T01:28:14Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readParams -->
-        <test-method status="FAIL" signature="xTest()[pri:0, instance:test.JobAdvancedSearchTest@bae7dc0]" name="xTest" duration-ms="4313" started-at="2014-08-09T01:28:14Z" finished-at="2014-08-09T01:28:19Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
-System info: host: 'Veronika', ip: '100.93.192.202', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_05'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
-System info: host: 'Veronika', ip: '100.93.192.202', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_05'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:800)
-	at webdriver.Browser.navigate(Browser.java:215)
-	at test.JobAdvancedSearchTest.runTest(JobAdvancedSearchTest.java:13)
-	at webdriver.BaseTest.xTest(BaseTest.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:337)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	... 29 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-            <line>
-              <![CDATA[------------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[=====================  Test case: 'test.JobAdvancedSearchTest' =====================<br>]]>
-            </line>
-            <line>
-              <![CDATA[------------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[<div class="skipped"></div><br>]]>
-            </line>
-            <line>
-              <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
-            </line>
-            <line>
-              <![CDATA[<div class="skipped"></div><br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.JobAdvancedSearchTest@bae7dc0]" name="after" is-config="true" duration-ms="1168" started-at="2014-08-09T01:28:19Z" finished-at="2014-08-09T01:28:20Z">
-          <reporter-output>
-            <line>
-              <![CDATA[killing processes<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- test.JobAdvancedSearchTest -->
       <class name="test.AfishaFindEventTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.AfishaFindEventTest@6392827e]" name="before" is-config="true" duration-ms="3849" started-at="2014-08-09T01:24:48Z" finished-at="2014-08-09T01:24:52Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.AfishaFindEventTest@209da20d]" name="before" is-config="true" duration-ms="5627" started-at="2014-08-09T13:30:43Z" finished-at="2014-08-09T13:30:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@64bce832]]>
+                <![CDATA[org.testng.TestRunner@46dffdc3]]>
               </value>
             </param>
           </params>
@@ -1462,46 +1473,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="readParams(java.lang.String, java.lang.String)[pri:0, instance:test.AfishaFindEventTest@6392827e]" name="readParams" duration-ms="0" started-at="2014-08-09T01:24:52Z" finished-at="2014-08-09T01:24:52Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.AfishaFindEventTest@6392827e]" name="xTest" duration-ms="36328" started-at="2014-08-09T01:24:52Z" finished-at="2014-08-09T01:25:28Z">
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.AfishaFindEventTest@209da20d]" name="xTest" duration-ms="6275" started-at="2014-08-09T13:30:49Z" finished-at="2014-08-09T13:30:55Z">
           <reporter-output>
             <line>
               <![CDATA[----------------------------------------------------------------------------------<br>]]>
@@ -1522,7 +1494,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 13510msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1254msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'afisha link' :: Clicking<br>]]>
@@ -1531,7 +1503,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Afisha form' appears in 794msec<br>]]>
+              <![CDATA[Form 'Afisha form' appears in 526msec<br>]]>
             </line>
             <line>
               <![CDATA[Afisha page is downloaded<br>]]>
@@ -1565,7 +1537,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.AfishaFindEventTest@6392827e]" name="after" is-config="true" duration-ms="1564" started-at="2014-08-09T01:25:28Z" finished-at="2014-08-09T01:25:29Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.AfishaFindEventTest@209da20d]" name="after" is-config="true" duration-ms="1374" started-at="2014-08-09T13:30:55Z" finished-at="2014-08-09T13:30:57Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1576,164 +1548,12 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.AfishaFindEventTest -->
-      <class name="test.MusicFindGroupTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.MusicFindGroupTest@d5b810e]" name="before" is-config="true" duration-ms="3732" started-at="2014-08-09T01:23:20Z" finished-at="2014-08-09T01:23:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@64bce832]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[browser driver was constructed<br>]]>
-            </line>
-            <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="FAIL" signature="readParams(java.lang.String, java.lang.String)[pri:0, instance:test.MusicFindGroupTest@d5b810e]" name="readParams" duration-ms="0" started-at="2014-08-09T01:23:24Z" finished-at="2014-08-09T01:23:24Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readParams -->
-        <test-method status="FAIL" signature="xTest()[pri:0, instance:test.MusicFindGroupTest@d5b810e]" name="xTest" duration-ms="53542" started-at="2014-08-09T01:23:24Z" finished-at="2014-08-09T01:24:17Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at webdriver.elements.BaseElement.waitForIsElementPresent(BaseElement.java:181)
-	at webdriver.elements.TextBox.type(TextBox.java:53)
-	at test.forms.MusicForm.FindGroup(MusicForm.java:32)
-	at test.MusicFindGroupTest.runTest(MusicFindGroupTest.java:20)
-	at webdriver.BaseTest.xTest(BaseTest.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-            <line>
-              <![CDATA[---------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[=====================  Test case: 'test.MusicFindGroupTest' =====================<br>]]>
-            </line>
-            <line>
-              <![CDATA[---------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Main form' appears in 14616msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'muusic page link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Music form' appears in 72msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[Page downloaded<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Music search link' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[<div class="skipped"></div><br>]]>
-            </line>
-            <line>
-              <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
-            </line>
-            <line>
-              <![CDATA[<div class="skipped"></div><br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.MusicFindGroupTest@d5b810e]" name="after" is-config="true" duration-ms="1191" started-at="2014-08-09T01:24:17Z" finished-at="2014-08-09T01:24:19Z">
-          <reporter-output>
-            <line>
-              <![CDATA[killing processes<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- test.MusicFindGroupTest -->
       <class name="test.LanguageChangeTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.LanguageChangeTest@43dac38f]" name="before" is-config="true" duration-ms="3848" started-at="2014-08-09T01:24:19Z" finished-at="2014-08-09T01:24:22Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.LanguageChangeTest@6392827e]" name="before" is-config="true" duration-ms="3904" started-at="2014-08-09T13:30:32Z" finished-at="2014-08-09T13:30:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@64bce832]]>
+                <![CDATA[org.testng.TestRunner@46dffdc3]]>
               </value>
             </param>
           </params>
@@ -1746,46 +1566,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="readParams(java.lang.String, java.lang.String)[pri:0, instance:test.LanguageChangeTest@43dac38f]" name="readParams" duration-ms="0" started-at="2014-08-09T01:24:22Z" finished-at="2014-08-09T01:24:22Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="xTest()[pri:0, instance:test.LanguageChangeTest@43dac38f]" name="xTest" duration-ms="23460" started-at="2014-08-09T01:24:22Z" finished-at="2014-08-09T01:24:46Z">
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.LanguageChangeTest@6392827e]" name="xTest" duration-ms="5723" started-at="2014-08-09T13:30:36Z" finished-at="2014-08-09T13:30:42Z">
           <reporter-output>
             <line>
               <![CDATA[---------------------------------------------------------------------------------<br>]]>
@@ -1806,7 +1587,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Main form' appears in 14501msec<br>]]>
+              <![CDATA[Form 'Main form' appears in 1376msec<br>]]>
             </line>
             <line>
               <![CDATA[Button 'language link' :: Clicking<br>]]>
@@ -1843,7 +1624,7 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.LanguageChangeTest@43dac38f]" name="after" is-config="true" duration-ms="1722" started-at="2014-08-09T01:24:46Z" finished-at="2014-08-09T01:24:48Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.LanguageChangeTest@6392827e]" name="after" is-config="true" duration-ms="1408" started-at="2014-08-09T13:30:42Z" finished-at="2014-08-09T13:30:43Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1854,12 +1635,12 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.LanguageChangeTest -->
-      <class name="test.CatalogAddCommentTest">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.CatalogAddCommentTest@209da20d]" name="before" is-config="true" duration-ms="3807" started-at="2014-08-09T01:28:20Z" finished-at="2014-08-09T01:28:24Z">
+      <class name="test.MusicFindGroupTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.MusicFindGroupTest@1b2abca6]" name="before" is-config="true" duration-ms="3840" started-at="2014-08-09T13:30:17Z" finished-at="2014-08-09T13:30:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@64bce832]]>
+                <![CDATA[org.testng.TestRunner@46dffdc3]]>
               </value>
             </param>
           </params>
@@ -1872,89 +1653,106 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="readParams(java.lang.String, java.lang.String)[pri:0, instance:test.CatalogAddCommentTest@209da20d]" name="readParams" duration-ms="0" started-at="2014-08-09T01:28:24Z" finished-at="2014-08-09T01:28:24Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method readParams but has not been marked @Optional or defined
-in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.MusicFindGroupTest@1b2abca6]" name="xTest" duration-ms="9901" started-at="2014-08-09T13:30:21Z" finished-at="2014-08-09T13:30:31Z">
           <reporter-output>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'test.MusicFindGroupTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main form' appears in 1306msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'muusic page link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Music form' appears in 75msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Page downloaded<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Music search link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'find group text box' :: Typing 'ÄÄÒ'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'find button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'click group link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Group page is downloaded<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.MusicFindGroupTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- readParams -->
-        <test-method status="FAIL" signature="xTest()[pri:0, instance:test.CatalogAddCommentTest@209da20d]" name="xTest" duration-ms="8147" started-at="2014-08-09T01:28:24Z" finished-at="2014-08-09T01:28:32Z">
-          <exception class="junit.framework.AssertionFailedError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError: null
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at webdriver.Logger.fatal(Logger.java:256)
-	at webdriver.BaseEntity.fatal(BaseEntity.java:85)
-	at webdriver.BaseForm.assertIsOpen(BaseForm.java:98)
-	at webdriver.BaseForm.<init>(BaseForm.java:37)
-	at test.forms.MainPageForm.<init>(MainPageForm.java:120)
-	at test.CatalogAddCommentTest.runTest(CatalogAddCommentTest.java:14)
-	at webdriver.BaseTest.xTest(BaseTest.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.MusicFindGroupTest@1b2abca6]" name="after" is-config="true" duration-ms="1541" started-at="2014-08-09T13:30:31Z" finished-at="2014-08-09T13:30:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.MusicFindGroupTest -->
+      <class name="test.CatalogAddCommentTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.CatalogAddCommentTest@6fd83fc1]" name="before" is-config="true" duration-ms="3828" started-at="2014-08-09T13:31:51Z" finished-at="2014-08-09T13:31:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46dffdc3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.CatalogAddCommentTest@6fd83fc1]" name="xTest" duration-ms="16202" started-at="2014-08-09T13:31:55Z" finished-at="2014-08-09T13:32:11Z">
           <reporter-output>
             <line>
               <![CDATA[------------------------------------------------------------------------------------<br>]]>
@@ -1975,21 +1773,105 @@ in C:\Users\lENOVO\AppData\Local\Temp\testng-eclipse-111153164\testng-customsuit
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="failedConfig">Form 'Main form' doesn't appear</div><br>]]>
+              <![CDATA[Form 'Main form' appears in 1230msec<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="skipped"></div><br>]]>
+              <![CDATA[Button 'enter button' :: Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
+              <![CDATA[Text Field 'user name' :: Typing 'courseProject'<br>]]>
             </line>
             <line>
-              <![CDATA[<div class="skipped"></div><br>]]>
+              <![CDATA[Text Field 'password' :: Typing 'q1w2e3r4t5y6'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'enter button 2' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'close button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Login success<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main form' appears in 48msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'catalog link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Catalog form' appears in 66msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Field catalog is present<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'search box catalog' :: Typing 'Îëåêñêàð'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Find button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Search succes<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Go to carwash link' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'comment positive box' :: Typing 'Âåæëèâûé ïåðñîíàë, õîðîøèå öåíû'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'comment negative box' :: Typing 'Íåãàòèâíîãî íåò)'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'add comment button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Comment added<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 7 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'logout button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Logout success<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.CatalogAddCommentTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- xTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.CatalogAddCommentTest@209da20d]" name="after" is-config="true" duration-ms="1205" started-at="2014-08-09T01:28:32Z" finished-at="2014-08-09T01:28:33Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.CatalogAddCommentTest@6fd83fc1]" name="after" is-config="true" duration-ms="1422" started-at="2014-08-09T13:32:11Z" finished-at="2014-08-09T13:32:12Z">
           <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
             <line>
               <![CDATA[killing processes<br>]]>
             </line>

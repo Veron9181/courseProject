@@ -5,23 +5,18 @@
     <classes>
       <class name="test.FindRoadRulesTest">
         <methods>
-          <include name="readParams"/>
           <include name="before"/>
           <include name="after"/>
-          <include name="xTest"/>
         </methods>
       </class> <!-- test.FindRoadRulesTest -->
       <class name="test.JobAdvancedSearchTest">
         <methods>
-          <include name="readParams"/>
           <include name="before"/>
           <include name="after"/>
-          <include name="xTest"/>
         </methods>
       </class> <!-- test.JobAdvancedSearchTest -->
       <class name="test.CatalogAddCommentTest">
         <methods>
-          <include name="readParams"/>
           <include name="before"/>
           <include name="after"/>
           <include name="xTest"/>
@@ -29,37 +24,30 @@
       </class> <!-- test.CatalogAddCommentTest -->
       <class name="test.JobFindAndSortTest">
         <methods>
-          <include name="readParams"/>
           <include name="before"/>
           <include name="after"/>
         </methods>
       </class> <!-- test.JobFindAndSortTest -->
       <class name="test.LoginTest">
         <methods>
-          <include name="readParams"/>
           <include name="before"/>
           <include name="after"/>
-          <include name="xTest"/>
         </methods>
       </class> <!-- test.LoginTest -->
       <class name="test.AfishaFindEventTest">
         <methods>
-          <include name="readParams"/>
           <include name="before"/>
           <include name="after"/>
         </methods>
       </class> <!-- test.AfishaFindEventTest -->
       <class name="test.BlogFindAndGoToTest">
         <methods>
-          <include name="readParams"/>
           <include name="before"/>
           <include name="after"/>
-          <include name="xTest"/>
         </methods>
       </class> <!-- test.BlogFindAndGoToTest -->
       <class name="test.MusicFindGroupTest">
         <methods>
-          <include name="readParams"/>
           <include name="before"/>
           <include name="after"/>
           <include name="xTest"/>
@@ -67,14 +55,12 @@
       </class> <!-- test.MusicFindGroupTest -->
       <class name="test.LanguageChangeTest">
         <methods>
-          <include name="readParams"/>
           <include name="before"/>
           <include name="after"/>
         </methods>
       </class> <!-- test.LanguageChangeTest -->
       <class name="test.WeatherChangeCityTest">
         <methods>
-          <include name="readParams"/>
           <include name="before"/>
           <include name="after"/>
         </methods>
